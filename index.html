@@ -10,7 +10,7 @@
   <div class="container">
     <header class="header">
       <div>
-        <p class="eyebrow">NAVER BLOG GOLDEN KEYWORD TRACKER</p>
+        <p class="eyebrow">NAVER KEYWORD GOLDEN TRACKER</p>
         <h1>황금 키워드 대시보드</h1>
       </div>
       <div class="meta-badge">
@@ -21,12 +21,12 @@
 
     <section class="summary-grid" aria-label="요약 지표">
       <article class="summary-card">
-        <span class="card-label">전체 추적 키워드</span>
+        <span class="card-label">전체 추적 주제</span>
         <strong class="card-value" id="totalCount">0</strong>
         <span class="card-sub" id="filteredInfo">필터 적용 전</span>
       </article>
       <article class="summary-card accent">
-        <span class="card-label">최고 황금비율</span>
+        <span class="card-label">최고 황금지수</span>
         <strong class="card-value" id="bestRatio">0.00</strong>
         <span class="card-sub" id="bestKeyword">-</span>
       </article>
@@ -36,9 +36,9 @@
         <span class="card-sub">PC + 모바일 합산</span>
       </article>
       <article class="summary-card">
-        <span class="card-label">경쟁 낮음(추천)</span>
+        <span class="card-label">경쟁 낮음</span>
         <strong class="card-value" id="lowCompCount">0</strong>
-        <span class="card-sub">황금비율 1.5 이상</span>
+        <span class="card-sub">검색광고 경쟁도 '낮음'</span>
       </article>
     </section>
 
@@ -58,9 +58,9 @@
           <input type="search" id="searchInput" placeholder="키워드 검색 (예: 연말정산, 육아)..." />
         </label>
         <select id="sortSelect" aria-label="정렬 기준">
-          <option value="golden_ratio:desc">황금비율 높은 순</option>
+          <option value="golden_ratio:desc">황금지수 높은 순</option>
           <option value="monthly_search:desc">월간 검색량 높은 순</option>
-          <option value="blog_docs:asc">블로그 문서 수 적은 순</option>
+          <option value="topic_search:desc">주제 검색량 높은 순</option>
           <option value="keyword:asc">가나다 순</option>
         </select>
       </div>
@@ -72,24 +72,26 @@
           <tr>
             <th>순위</th>
             <th>카테고리</th>
-            <th>키워드</th>
-            <th class="num">월간 검색량</th>
-            <th class="num">블로그 문서 수</th>
-            <th class="num">황금비율</th>
+            <th>주제</th>
+            <th class="num">주제 검색량</th>
+            <th>추천 키워드</th>
+            <th class="num">추천 검색량</th>
+            <th class="num">황금지수</th>
             <th>경쟁도</th>
             <th>추세</th>
           </tr>
         </thead>
         <tbody id="keywordTableBody">
           <tr>
-            <td colspan="8" class="empty">데이터를 불러오는 중입니다...</td>
+            <td colspan="9" class="empty">데이터를 불러오는 중입니다...</td>
           </tr>
         </tbody>
       </table>
     </section>
 
     <footer class="footer">
-      <p>황금비율 = 월간 총 검색량 ÷ 블로그 누적 문서 수 (높을수록 검색 수요 대비 경쟁 문서가 적음)</p>
+      <p>황금지수 = 월간 검색량(천 단위) × 경쟁도 계수 (낮음 1.5 / 보통 1.0 / 높음 0.6)</p>
+      <p>검색량·경쟁도는 네이버 검색광고 키워드 도구 기준이며, 추천 키워드는 주제와 단어가 겹치는 관련 키워드 중 검색량이 있는 것입니다.</p>
     </footer>
   </div>
 
