@@ -141,12 +141,12 @@ def find_exact(items: list[dict], phrase: str) -> dict | None:
     return None
 
 
-def pick_recommendation(items: list[dict], phrase: str, exclude: str) -> dict | None:
+def pick_recommendation(items: list[dict], phrase: str, exclude: str, used: set[str]) -> dict | None:
     """주제와 단어가 겹치고 실제 검색량이 있는 관련 키워드 중 가장 쓸만한 것 하나."""
     tokens = [t for t in phrase.split() if len(t) >= 2]
     candidates = []
     for item in items:
-        if item["compact"] == exclude or item["volume"] < 100:
+        if item["compact"] == exclude or item["compact"] in used or item["volume"] < 100:
             continue
         matched = sum(1 for t in tokens if t in item["name"])
         if matched == 0:
@@ -189,6 +189,7 @@ def main() -> None:
                 prev_map[row["keyword"]] = row
 
     updated_rows = []
+    used_recommends: set[str] = set()
     for phrase, category in SEED_KEYWORDS:
         rows: list[dict] = []
         hints = list(dict.fromkeys([phrase, head_token(phrase)]))
@@ -204,7 +205,11 @@ def main() -> None:
         topic_volume = exact["volume"] if exact else 0
         topic_comp = exact["comp"] if exact else "중간"
 
-        recommend = pick_recommendation(items, phrase, exclude=phrase.replace(" ", ""))
+        recommend = pick_recommendation(
+            items, phrase, exclude=phrase.replace(" ", ""), used=used_recommends
+        )
+        if recommend:
+            used_recommends.add(recommend["compact"])
 
         if recommend and recommend["volume"] >= max(topic_volume, 100):
             main_volume = recommend["volume"]

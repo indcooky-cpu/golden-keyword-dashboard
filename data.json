@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 07:55 KST",
+  "updated_at": "2026-11-24 07:58 KST",
   "keywords": [
     {
       "keyword": "챗GPT 코덱스 한도 통합",
@@ -119,19 +119,6 @@
       "trend": "유지"
     },
     {
-      "keyword": "월세 세액공제 배우자",
-      "category": "경제",
-      "topic_search": 20,
-      "monthly_search": 13600,
-      "pc_search": 3200,
-      "mobile_search": 10400,
-      "recommend_keyword": "월세세액공제",
-      "recommend_search": 13600,
-      "competition": "중간",
-      "golden_ratio": 13.6,
-      "trend": "유지"
-    },
-    {
       "keyword": "전기요금 복지할인 출산가구",
       "category": "육아",
       "topic_search": 20,
@@ -182,6 +169,19 @@
       "competition": "낮음",
       "golden_ratio": 4.38,
       "trend": "유지"
+    },
+    {
+      "keyword": "월세 세액공제 배우자",
+      "category": "경제",
+      "topic_search": 20,
+      "monthly_search": 6350,
+      "pc_search": 1690,
+      "mobile_search": 4660,
+      "recommend_keyword": "IRP세액공제",
+      "recommend_search": 6350,
+      "competition": "높음",
+      "golden_ratio": 3.81,
+      "trend": "하락"
     },
     {
       "keyword": "노트북 듀얼모니터 거치대",
