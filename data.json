@@ -1,0 +1,230 @@
+{
+  "updated_at": "2026-11-23 05:00 KST",
+  "keywords": [
+    {
+      "keyword": "초등 예체능 학원비 세액공제",
+      "category": "경제",
+      "monthly_search": 28400,
+      "blog_docs": 6200,
+      "golden_ratio": 4.58,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "고향사랑기부제 20만원 공제",
+      "category": "경제",
+      "monthly_search": 21600,
+      "blog_docs": 5400,
+      "golden_ratio": 4.00,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "실손24 병원 서류없이 청구",
+      "category": "생활",
+      "monthly_search": 31200,
+      "blog_docs": 8900,
+      "golden_ratio": 3.51,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "착오송금 반환지원 1억원",
+      "category": "경제",
+      "monthly_search": 16800,
+      "blog_docs": 4900,
+      "golden_ratio": 3.43,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "건보 본인부담상한액 환급",
+      "category": "건강",
+      "monthly_search": 42100,
+      "blog_docs": 13400,
+      "golden_ratio": 3.14,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "운전면허 갱신 생일 6개월",
+      "category": "생활",
+      "monthly_search": 24900,
+      "blog_docs": 8300,
+      "golden_ratio": 3.00,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "수도계량기 동파 예방법",
+      "category": "생활",
+      "monthly_search": 19500,
+      "blog_docs": 7200,
+      "golden_ratio": 2.71,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "독감 무료접종 3가 백신",
+      "category": "건강",
+      "monthly_search": 33400,
+      "blog_docs": 12800,
+      "golden_ratio": 2.61,
+      "competition": "낮음",
+      "trend": "유지"
+    },
+    {
+      "keyword": "근로장려금 기한후 신청",
+      "category": "경제",
+      "monthly_search": 48900,
+      "blog_docs": 19200,
+      "golden_ratio": 2.55,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "영유아 검진 시기 준비물",
+      "category": "육아",
+      "monthly_search": 18200,
+      "blog_docs": 7600,
+      "golden_ratio": 2.39,
+      "competition": "낮음",
+      "trend": "유지"
+    },
+    {
+      "keyword": "아기 이유식 초기 큐브 보관",
+      "category": "육아",
+      "monthly_search": 15400,
+      "blog_docs": 6800,
+      "golden_ratio": 2.26,
+      "competition": "낮음",
+      "trend": "유지"
+    },
+    {
+      "keyword": "모바일 주민등록증 발급",
+      "category": "IT",
+      "monthly_search": 36700,
+      "blog_docs": 16800,
+      "golden_ratio": 2.18,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "월세 세액공제 배우자",
+      "category": "경제",
+      "monthly_search": 22300,
+      "blog_docs": 10900,
+      "golden_ratio": 2.05,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "전기요금 복지할인 출산가구",
+      "category": "육아",
+      "monthly_search": 14100,
+      "blog_docs": 7100,
+      "golden_ratio": 1.99,
+      "competition": "낮음",
+      "trend": "유지"
+    },
+    {
+      "keyword": "어카운트인포 휴면계좌 해지",
+      "category": "경제",
+      "monthly_search": 26500,
+      "blog_docs": 14500,
+      "golden_ratio": 1.83,
+      "competition": "낮음",
+      "trend": "유지"
+    },
+    {
+      "keyword": "겨울철 자동차 배터리 전압",
+      "category": "생활",
+      "monthly_search": 12900,
+      "blog_docs": 7800,
+      "golden_ratio": 1.65,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "챗GPT 코덱스 한도 통합",
+      "category": "IT",
+      "monthly_search": 11800,
+      "blog_docs": 7400,
+      "golden_ratio": 1.59,
+      "competition": "낮음",
+      "trend": "상승"
+    },
+    {
+      "keyword": "아기 낮잠 깨시 계산",
+      "category": "육아",
+      "monthly_search": 16200,
+      "blog_docs": 11500,
+      "golden_ratio": 1.41,
+      "competition": "보통",
+      "trend": "유지"
+    },
+    {
+      "keyword": "문화누리카드 잔액조회",
+      "category": "생활",
+      "monthly_search": 39800,
+      "blog_docs": 29400,
+      "golden_ratio": 1.35,
+      "competition": "보통",
+      "trend": "상승"
+    },
+    {
+      "keyword": "스케일링 건강보험 적용",
+      "category": "건강",
+      "monthly_search": 27600,
+      "blog_docs": 21800,
+      "golden_ratio": 1.27,
+      "competition": "보통",
+      "trend": "상승"
+    },
+    {
+      "keyword": "도시가스 절약 캐시백",
+      "category": "생활",
+      "monthly_search": 34200,
+      "blog_docs": 28900,
+      "golden_ratio": 1.18,
+      "competition": "보통",
+      "trend": "상승"
+    },
+    {
+      "keyword": "AI 전화 스팸 차단 설정",
+      "category": "IT",
+      "monthly_search": 14600,
+      "blog_docs": 13900,
+      "golden_ratio": 1.05,
+      "competition": "보통",
+      "trend": "유지"
+    },
+    {
+      "keyword": "유아 문센 겨울학기 준비물",
+      "category": "육아",
+      "monthly_search": 9400,
+      "blog_docs": 11200,
+      "golden_ratio": 0.84,
+      "competition": "보통",
+      "trend": "유지"
+    },
+    {
+      "keyword": "수면안대 온열안대 추천",
+      "category": "건강",
+      "monthly_search": 18700,
+      "blog_docs": 29500,
+      "golden_ratio": 0.63,
+      "competition": "높음",
+      "trend": "유지"
+    },
+    {
+      "keyword": "노트북 듀얼모니터 거치대",
+      "category": "IT",
+      "monthly_search": 15200,
+      "blog_docs": 31800,
+      "golden_ratio": 0.48,
+      "competition": "높음",
+      "trend": "하락"
+    }
+  ]
+}

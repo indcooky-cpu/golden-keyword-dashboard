@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>황금 키워드 대시보드</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <p class="eyebrow">NAVER BLOG GOLDEN KEYWORD TRACKER</p>
+        <h1>황금 키워드 대시보드</h1>
+      </div>
+      <div class="meta-badge">
+        <span class="dot"></span>
+        <span>최근 업데이트: <strong id="updatedAt">-</strong></span>
+      </div>
+    </header>
+
+    <section class="summary-grid" aria-label="요약 지표">
+      <article class="summary-card">
+        <span class="card-label">전체 추적 키워드</span>
+        <strong class="card-value" id="totalCount">0</strong>
+        <span class="card-sub" id="filteredInfo">필터 적용 전</span>
+      </article>
+      <article class="summary-card accent">
+        <span class="card-label">최고 황금비율</span>
+        <strong class="card-value" id="bestRatio">0.00</strong>
+        <span class="card-sub" id="bestKeyword">-</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-label">평균 월간 검색량</span>
+        <strong class="card-value" id="avgSearch">0</strong>
+        <span class="card-sub">PC + 모바일 합산</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-label">경쟁 낮음(추천)</span>
+        <strong class="card-value" id="lowCompCount">0</strong>
+        <span class="card-sub">황금비율 1.5 이상</span>
+      </article>
+    </section>
+
+    <section class="controls" aria-label="필터 및 검색">
+      <div class="category-tabs" id="categoryTabs" role="tablist">
+        <button class="tab active" data-category="전체">전체</button>
+        <button class="tab" data-category="경제">경제</button>
+        <button class="tab" data-category="생활">생활</button>
+        <button class="tab" data-category="건강">건강</button>
+        <button class="tab" data-category="IT">IT</button>
+        <button class="tab" data-category="육아">육아</button>
+      </div>
+
+      <div class="search-sort">
+        <label class="search-box">
+          <span class="sr-only">키워드 검색</span>
+          <input type="search" id="searchInput" placeholder="키워드 검색 (예: 연말정산, 육아)..." />
+        </label>
+        <select id="sortSelect" aria-label="정렬 기준">
+          <option value="golden_ratio:desc">황금비율 높은 순</option>
+          <option value="monthly_search:desc">월간 검색량 높은 순</option>
+          <option value="blog_docs:asc">블로그 문서 수 적은 순</option>
+          <option value="keyword:asc">가나다 순</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="table-wrap" aria-label="키워드 랭킹 표">
+      <table>
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>카테고리</th>
+            <th>키워드</th>
+            <th class="num">월간 검색량</th>
+            <th class="num">블로그 문서 수</th>
+            <th class="num">황금비율</th>
+            <th>경쟁도</th>
+            <th>추세</th>
+          </tr>
+        </thead>
+        <tbody id="keywordTableBody">
+          <tr>
+            <td colspan="8" class="empty">데이터를 불러오는 중입니다...</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer class="footer">
+      <p>황금비율 = 월간 총 검색량 ÷ 블로그 누적 문서 수 (높을수록 검색 수요 대비 경쟁 문서가 적음)</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
