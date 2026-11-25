@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 12:50 KST",
+  "updated_at": "2026-11-25 12:55 KST",
   "keywords": [
     {
       "keyword": "챗GPT 코덱스 한도 통합",
@@ -951,6 +951,19 @@
       "trend": "유지"
     },
     {
+      "keyword": "중개형 ISA",
+      "category": "경제",
+      "topic_search": 740,
+      "monthly_search": 1990,
+      "pc_search": 420,
+      "mobile_search": 1570,
+      "recommend_keyword": "중개형ISA계좌",
+      "recommend_search": 1990,
+      "competition": "중간",
+      "golden_ratio": 1.99,
+      "trend": "유지"
+    },
+    {
       "keyword": "아기 수면교육 시기",
       "category": "육아",
       "topic_search": 310,
@@ -1286,19 +1299,6 @@
       "recommend_search": 0,
       "competition": "낮음",
       "golden_ratio": 0.03,
-      "trend": "유지"
-    },
-    {
-      "keyword": "중개형 ISA 개설",
-      "category": "경제",
-      "topic_search": 20,
-      "monthly_search": 20,
-      "pc_search": 10,
-      "mobile_search": 10,
-      "recommend_keyword": "",
-      "recommend_search": 0,
-      "competition": "높음",
-      "golden_ratio": 0.01,
       "trend": "유지"
     }
   ]
