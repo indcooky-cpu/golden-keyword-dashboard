@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-26 16:28 KST",
+  "updated_at": "2026-11-26 16:36 KST",
   "counts": {
-    "total": 367,
+    "total": 406,
     "seed_count": 130,
-    "low_competition": 86,
-    "low_competition_longtail": 42
+    "low_competition": 84,
+    "low_competition_longtail": 43
   },
   "keywords": [
     {
@@ -16,17 +16,6 @@
       "mobile_search": 231500,
       "competition": "낮음",
       "golden_ratio": 429.15,
-      "trend": "유지"
-    },
-    {
-      "keyword": "국민연금",
-      "category": "경제",
-      "seed": "국민연금 임의가입",
-      "monthly_search": 279200,
-      "pc_search": 120400,
-      "mobile_search": 158800,
-      "competition": "낮음",
-      "golden_ratio": 418.8,
       "trend": "유지"
     },
     {
@@ -52,17 +41,6 @@
       "trend": "유지"
     },
     {
-      "keyword": "로판AI",
-      "category": "IT",
-      "seed": "AI 전화 스팸 차단 설정",
-      "monthly_search": 53610,
-      "pc_search": 3310,
-      "mobile_search": 50300,
-      "competition": "낮음",
-      "golden_ratio": 80.41,
-      "trend": "신규"
-    },
-    {
       "keyword": "청년도약계좌",
       "category": "경제",
       "seed": "청년도약계좌",
@@ -82,7 +60,7 @@
       "mobile_search": 8780,
       "competition": "낮음",
       "golden_ratio": 43.92,
-      "trend": "하락"
+      "trend": "유지"
     },
     {
       "keyword": "청년버팀목대출",
@@ -104,7 +82,7 @@
       "mobile_search": 6770,
       "competition": "낮음",
       "golden_ratio": 35.36,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "부동산중개수수료",
@@ -115,7 +93,7 @@
       "mobile_search": 16600,
       "competition": "낮음",
       "golden_ratio": 31.55,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "삼성화재보험금청구",
@@ -126,6 +104,28 @@
       "mobile_search": 13800,
       "competition": "낮음",
       "golden_ratio": 27.91,
+      "trend": "유지"
+    },
+    {
+      "keyword": "노로바이러스증상",
+      "category": "건강",
+      "seed": "노로바이러스 증상",
+      "monthly_search": 23960,
+      "pc_search": 2560,
+      "mobile_search": 21400,
+      "competition": "중간",
+      "golden_ratio": 23.96,
+      "trend": "신규"
+    },
+    {
+      "keyword": "달빛어린이병원",
+      "category": "건강",
+      "seed": "달빛어린이병원",
+      "monthly_search": 19230,
+      "pc_search": 1130,
+      "mobile_search": 18100,
+      "competition": "중간",
+      "golden_ratio": 19.23,
       "trend": "신규"
     },
     {
@@ -137,7 +137,7 @@
       "mobile_search": 9550,
       "competition": "낮음",
       "golden_ratio": 17.89,
-      "trend": "하락"
+      "trend": "유지"
     },
     {
       "keyword": "주정차과태료조회",
@@ -162,6 +162,17 @@
       "trend": "유지"
     },
     {
+      "keyword": "스마트스위치",
+      "category": "IT",
+      "seed": "스마트 플러그 추천",
+      "monthly_search": 13930,
+      "pc_search": 6120,
+      "mobile_search": 7810,
+      "competition": "중간",
+      "golden_ratio": 13.93,
+      "trend": "신규"
+    },
+    {
       "keyword": "문화누리카드잔액",
       "category": "생활",
       "seed": "문화누리카드 잔액조회",
@@ -170,7 +181,7 @@
       "mobile_search": 8070,
       "competition": "낮음",
       "golden_ratio": 13.89,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "여권재발급준비물",
@@ -195,28 +206,6 @@
       "trend": "유지"
     },
     {
-      "keyword": "대한통운택배예약",
-      "category": "생활",
-      "seed": "우체국 택배 방문접수",
-      "monthly_search": 12900,
-      "pc_search": 2700,
-      "mobile_search": 10200,
-      "competition": "중간",
-      "golden_ratio": 12.9,
-      "trend": "신규"
-    },
-    {
-      "keyword": "A형간염",
-      "category": "건강",
-      "seed": "A형간염 항체검사",
-      "monthly_search": 12300,
-      "pc_search": 2100,
-      "mobile_search": 10200,
-      "competition": "중간",
-      "golden_ratio": 12.3,
-      "trend": "유지"
-    },
-    {
       "keyword": "대장내시경약복용",
       "category": "건강",
       "seed": "대장내시경 수면 비용",
@@ -225,18 +214,18 @@
       "mobile_search": 10800,
       "competition": "중간",
       "golden_ratio": 12.13,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "로지아이택배",
       "category": "생활",
-      "seed": "택배 파손 보상",
+      "seed": "우체국 택배 방문접수",
       "monthly_search": 8020,
       "pc_search": 2380,
       "mobile_search": 5640,
       "competition": "낮음",
       "golden_ratio": 12.03,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "모바일건강보험증발급",
@@ -247,29 +236,18 @@
       "mobile_search": 6730,
       "competition": "낮음",
       "golden_ratio": 11.56,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "우체국택배방문접수",
       "category": "생활",
-      "seed": "택배 파손 보상",
+      "seed": "우체국 택배 방문접수",
       "monthly_search": 7500,
       "pc_search": 1690,
       "mobile_search": 5810,
       "competition": "낮음",
       "golden_ratio": 11.25,
-      "trend": "하락"
-    },
-    {
-      "keyword": "GS25택배",
-      "category": "생활",
-      "seed": "우체국 택배 방문접수",
-      "monthly_search": 11020,
-      "pc_search": 2830,
-      "mobile_search": 8190,
-      "competition": "중간",
-      "golden_ratio": 11.02,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "모바일운전면허증발급",
@@ -280,17 +258,17 @@
       "mobile_search": 5400,
       "competition": "낮음",
       "golden_ratio": 10.92,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "편의점택배가격",
+      "keyword": "전입신고확정일자",
       "category": "생활",
-      "seed": "우체국 택배 방문접수",
-      "monthly_search": 10540,
-      "pc_search": 1220,
-      "mobile_search": 9320,
+      "seed": "전입신고 확정일자",
+      "monthly_search": 10440,
+      "pc_search": 4670,
+      "mobile_search": 5770,
       "competition": "중간",
-      "golden_ratio": 10.54,
+      "golden_ratio": 10.44,
       "trend": "신규"
     },
     {
@@ -313,7 +291,7 @@
       "mobile_search": 7220,
       "competition": "중간",
       "golden_ratio": 9.82,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "신생아카시트",
@@ -324,18 +302,7 @@
       "mobile_search": 5260,
       "competition": "중간",
       "golden_ratio": 9.76,
-      "trend": "신규"
-    },
-    {
-      "keyword": "무선가습기",
-      "category": "IT",
-      "seed": "미니 가습기 추천",
-      "monthly_search": 9720,
-      "pc_search": 5360,
-      "mobile_search": 4360,
-      "competition": "중간",
-      "golden_ratio": 9.72,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "C타입허브",
@@ -346,18 +313,18 @@
       "mobile_search": 2940,
       "competition": "중간",
       "golden_ratio": 9.59,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "지에스택배조회",
       "category": "생활",
-      "seed": "택배 파손 보상",
+      "seed": "우체국 택배 방문접수",
       "monthly_search": 6360,
       "pc_search": 440,
       "mobile_search": 5920,
       "competition": "낮음",
       "golden_ratio": 9.54,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "엘지로봇청소기",
@@ -368,18 +335,18 @@
       "mobile_search": 8060,
       "competition": "중간",
       "golden_ratio": 9.46,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "해열제",
+      "keyword": "어린이치약",
       "category": "육아",
-      "seed": "아기 해열제 종류",
-      "monthly_search": 9270,
-      "pc_search": 900,
-      "mobile_search": 8370,
+      "seed": "유아 치약 불소",
+      "monthly_search": 9230,
+      "pc_search": 4520,
+      "mobile_search": 4710,
       "competition": "중간",
-      "golden_ratio": 9.27,
-      "trend": "유지"
+      "golden_ratio": 9.23,
+      "trend": "신규"
     },
     {
       "keyword": "워터픽구강세정기",
@@ -390,6 +357,17 @@
       "mobile_search": 8240,
       "competition": "중간",
       "golden_ratio": 9.23,
+      "trend": "유지"
+    },
+    {
+      "keyword": "유아식판",
+      "category": "육아",
+      "seed": "아기 식판 추천",
+      "monthly_search": 9160,
+      "pc_search": 6340,
+      "mobile_search": 2820,
+      "competition": "중간",
+      "golden_ratio": 9.16,
       "trend": "신규"
     },
     {
@@ -401,7 +379,7 @@
       "mobile_search": 4730,
       "competition": "중간",
       "golden_ratio": 9.07,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "대용량보조배터리",
@@ -412,7 +390,7 @@
       "mobile_search": 7100,
       "competition": "중간",
       "golden_ratio": 9.03,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "퇴사",
@@ -423,7 +401,7 @@
       "mobile_search": 4420,
       "competition": "낮음",
       "golden_ratio": 8.94,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "욕실슬리퍼",
@@ -434,6 +412,28 @@
       "mobile_search": 4680,
       "competition": "중간",
       "golden_ratio": 8.93,
+      "trend": "유지"
+    },
+    {
+      "keyword": "AI대화",
+      "category": "IT",
+      "seed": "AI 전화 스팸 차단 설정",
+      "monthly_search": 8920,
+      "pc_search": 1430,
+      "mobile_search": 7490,
+      "competition": "중간",
+      "golden_ratio": 8.92,
+      "trend": "신규"
+    },
+    {
+      "keyword": "계산",
+      "category": "육아",
+      "seed": "아기 낮잠 깨시 계산",
+      "monthly_search": 5910,
+      "pc_search": 1730,
+      "mobile_search": 4180,
+      "competition": "낮음",
+      "golden_ratio": 8.87,
       "trend": "신규"
     },
     {
@@ -445,29 +445,29 @@
       "mobile_search": 7190,
       "competition": "중간",
       "golden_ratio": 8.87,
+      "trend": "유지"
+    },
+    {
+      "keyword": "플러그",
+      "category": "IT",
+      "seed": "스마트 플러그 추천",
+      "monthly_search": 8800,
+      "pc_search": 2760,
+      "mobile_search": 6040,
+      "competition": "중간",
+      "golden_ratio": 8.8,
       "trend": "신규"
     },
     {
       "keyword": "로봇청소기추천",
       "category": "IT",
-      "seed": "미니 청소기 추천",
+      "seed": "로봇청소기 추천",
       "monthly_search": 8760,
       "pc_search": 2450,
       "mobile_search": 6310,
       "competition": "중간",
       "golden_ratio": 8.76,
       "trend": "유지"
-    },
-    {
-      "keyword": "추석선물",
-      "category": "생활",
-      "seed": "집들이 선물 추천",
-      "monthly_search": 8640,
-      "pc_search": 8370,
-      "mobile_search": 270,
-      "competition": "중간",
-      "golden_ratio": 8.64,
-      "trend": "신규"
     },
     {
       "keyword": "모바일주민등록증",
@@ -478,7 +478,7 @@
       "mobile_search": 4800,
       "competition": "낮음",
       "golden_ratio": 8.62,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "장스탠드",
@@ -489,6 +489,17 @@
       "mobile_search": 4530,
       "competition": "중간",
       "golden_ratio": 8.51,
+      "trend": "유지"
+    },
+    {
+      "keyword": "진공청소기",
+      "category": "IT",
+      "seed": "미니 청소기 추천",
+      "monthly_search": 8460,
+      "pc_search": 2420,
+      "mobile_search": 6040,
+      "competition": "중간",
+      "golden_ratio": 8.46,
       "trend": "신규"
     },
     {
@@ -500,7 +511,7 @@
       "mobile_search": 4140,
       "competition": "중간",
       "golden_ratio": 8.36,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "괄사마사지기",
@@ -511,7 +522,7 @@
       "mobile_search": 7550,
       "competition": "중간",
       "golden_ratio": 8.3,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "보조배터리추천",
@@ -522,6 +533,17 @@
       "mobile_search": 5580,
       "competition": "중간",
       "golden_ratio": 8.28,
+      "trend": "유지"
+    },
+    {
+      "keyword": "AGM배터리",
+      "category": "생활",
+      "seed": "겨울철 자동차 배터리 전압",
+      "monthly_search": 8260,
+      "pc_search": 1590,
+      "mobile_search": 6670,
+      "competition": "중간",
+      "golden_ratio": 8.26,
       "trend": "신규"
     },
     {
@@ -533,7 +555,7 @@
       "mobile_search": 4130,
       "competition": "중간",
       "golden_ratio": 8.24,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "비타민D5000IU",
@@ -544,7 +566,7 @@
       "mobile_search": 4900,
       "competition": "중간",
       "golden_ratio": 8.17,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "부동산수수료",
@@ -555,7 +577,7 @@
       "mobile_search": 4070,
       "competition": "낮음",
       "golden_ratio": 8.12,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "소상공인정책자금대출",
@@ -566,7 +588,7 @@
       "mobile_search": 3520,
       "competition": "낮음",
       "golden_ratio": 8.07,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아기비타민D",
@@ -577,18 +599,7 @@
       "mobile_search": 7500,
       "competition": "중간",
       "golden_ratio": 7.99,
-      "trend": "신규"
-    },
-    {
-      "keyword": "캠핑요리",
-      "category": "생활",
-      "seed": "캠핑 랜턴 추천",
-      "monthly_search": 7960,
-      "pc_search": 2310,
-      "mobile_search": 5650,
-      "competition": "중간",
-      "golden_ratio": 7.96,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "목안마기",
@@ -599,7 +610,7 @@
       "mobile_search": 6870,
       "competition": "중간",
       "golden_ratio": 7.87,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "듀얼모니터",
@@ -610,7 +621,7 @@
       "mobile_search": 4670,
       "competition": "중간",
       "golden_ratio": 7.8,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "화장실발매트",
@@ -621,6 +632,28 @@
       "mobile_search": 4650,
       "competition": "중간",
       "golden_ratio": 7.79,
+      "trend": "유지"
+    },
+    {
+      "keyword": "AGM80배터리",
+      "category": "생활",
+      "seed": "겨울철 자동차 배터리 전압",
+      "monthly_search": 7740,
+      "pc_search": 1330,
+      "mobile_search": 6410,
+      "competition": "중간",
+      "golden_ratio": 7.74,
+      "trend": "신규"
+    },
+    {
+      "keyword": "18650배터리",
+      "category": "생활",
+      "seed": "겨울철 자동차 배터리 전압",
+      "monthly_search": 7560,
+      "pc_search": 2240,
+      "mobile_search": 5320,
+      "competition": "중간",
+      "golden_ratio": 7.56,
       "trend": "신규"
     },
     {
@@ -632,6 +665,17 @@
       "mobile_search": 6210,
       "competition": "중간",
       "golden_ratio": 7.5,
+      "trend": "유지"
+    },
+    {
+      "keyword": "무릎마사지기",
+      "category": "건강",
+      "seed": "발 마사지기 추천",
+      "monthly_search": 7330,
+      "pc_search": 1800,
+      "mobile_search": 5530,
+      "competition": "중간",
+      "golden_ratio": 7.33,
       "trend": "신규"
     },
     {
@@ -643,7 +687,7 @@
       "mobile_search": 3030,
       "competition": "중간",
       "golden_ratio": 7.25,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "자동차검사기간",
@@ -654,7 +698,7 @@
       "mobile_search": 5810,
       "competition": "중간",
       "golden_ratio": 7.25,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "샤워기세트",
@@ -665,7 +709,7 @@
       "mobile_search": 5880,
       "competition": "중간",
       "golden_ratio": 7.11,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "무선전기포트",
@@ -687,29 +731,7 @@
       "mobile_search": 3350,
       "competition": "중간",
       "golden_ratio": 7.0,
-      "trend": "신규"
-    },
-    {
-      "keyword": "카카오택배",
-      "category": "생활",
-      "seed": "택배 파손 보상",
-      "monthly_search": 4660,
-      "pc_search": 870,
-      "mobile_search": 3790,
-      "competition": "낮음",
-      "golden_ratio": 6.99,
-      "trend": "신규"
-    },
-    {
-      "keyword": "천기저귀",
-      "category": "육아",
-      "seed": "아기 기저귀 발진",
-      "monthly_search": 6940,
-      "pc_search": 850,
-      "mobile_search": 6090,
-      "competition": "중간",
-      "golden_ratio": 6.94,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "커피캡슐",
@@ -720,7 +742,7 @@
       "mobile_search": 5310,
       "competition": "중간",
       "golden_ratio": 6.91,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "대용량텀블러",
@@ -731,7 +753,7 @@
       "mobile_search": 2540,
       "competition": "중간",
       "golden_ratio": 6.9,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "비타민D3",
@@ -742,7 +764,7 @@
       "mobile_search": 5360,
       "competition": "중간",
       "golden_ratio": 6.9,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "차량용무선충전기",
@@ -753,7 +775,7 @@
       "mobile_search": 2410,
       "competition": "중간",
       "golden_ratio": 6.75,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "초임계RTG오메가3",
@@ -764,6 +786,17 @@
       "mobile_search": 5410,
       "competition": "중간",
       "golden_ratio": 6.75,
+      "trend": "유지"
+    },
+    {
+      "keyword": "MMR예방접종",
+      "category": "건강",
+      "seed": "대상포진 예방접종 비용",
+      "monthly_search": 6690,
+      "pc_search": 1070,
+      "mobile_search": 5620,
+      "competition": "중간",
+      "golden_ratio": 6.69,
       "trend": "신규"
     },
     {
@@ -775,6 +808,17 @@
       "mobile_search": 5960,
       "competition": "중간",
       "golden_ratio": 6.67,
+      "trend": "유지"
+    },
+    {
+      "keyword": "음식물처리기추천",
+      "category": "IT",
+      "seed": "음식물처리기 추천",
+      "monthly_search": 6660,
+      "pc_search": 2730,
+      "mobile_search": 3930,
+      "competition": "중간",
+      "golden_ratio": 6.66,
       "trend": "신규"
     },
     {
@@ -786,17 +830,50 @@
       "mobile_search": 5520,
       "competition": "중간",
       "golden_ratio": 6.65,
+      "trend": "유지"
+    },
+    {
+      "keyword": "게임용모니터추천",
+      "category": "IT",
+      "seed": "휴대용 모니터 추천",
+      "monthly_search": 6630,
+      "pc_search": 1110,
+      "mobile_search": 5520,
+      "competition": "중간",
+      "golden_ratio": 6.63,
       "trend": "신규"
     },
     {
-      "keyword": "캠핑용침대",
+      "keyword": "과태료",
       "category": "생활",
-      "seed": "캠핑 랜턴 추천",
-      "monthly_search": 6410,
-      "pc_search": 1360,
-      "mobile_search": 5050,
+      "seed": "주정차 과태료 조회",
+      "monthly_search": 6590,
+      "pc_search": 2490,
+      "mobile_search": 4100,
       "competition": "중간",
-      "golden_ratio": 6.41,
+      "golden_ratio": 6.59,
+      "trend": "신규"
+    },
+    {
+      "keyword": "영양제추천",
+      "category": "건강",
+      "seed": "루테인 눈 영양제",
+      "monthly_search": 6540,
+      "pc_search": 1670,
+      "mobile_search": 4870,
+      "competition": "중간",
+      "golden_ratio": 6.54,
+      "trend": "신규"
+    },
+    {
+      "keyword": "AI추천",
+      "category": "IT",
+      "seed": "AI 전화 스팸 차단 설정",
+      "monthly_search": 6360,
+      "pc_search": 2950,
+      "mobile_search": 3410,
+      "competition": "중간",
+      "golden_ratio": 6.36,
       "trend": "신규"
     },
     {
@@ -808,7 +885,7 @@
       "mobile_search": 2180,
       "competition": "중간",
       "golden_ratio": 6.36,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "초임계알티지오메가3",
@@ -819,7 +896,7 @@
       "mobile_search": 2840,
       "competition": "중간",
       "golden_ratio": 6.33,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "신생아기저귀",
@@ -833,14 +910,14 @@
       "trend": "유지"
     },
     {
-      "keyword": "책상스탠드",
-      "category": "생활",
-      "seed": "스탠드 무드등",
-      "monthly_search": 6180,
-      "pc_search": 1560,
-      "mobile_search": 4620,
+      "keyword": "차량용태블릿거치대",
+      "category": "IT",
+      "seed": "태블릿 거치대 추천",
+      "monthly_search": 6260,
+      "pc_search": 3570,
+      "mobile_search": 2690,
       "competition": "중간",
-      "golden_ratio": 6.18,
+      "golden_ratio": 6.26,
       "trend": "신규"
     },
     {
@@ -863,7 +940,7 @@
       "mobile_search": 3640,
       "competition": "낮음",
       "golden_ratio": 5.93,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아이스텀블러",
@@ -874,7 +951,7 @@
       "mobile_search": 270,
       "competition": "중간",
       "golden_ratio": 5.88,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "루테인지아잔틴아스타잔틴",
@@ -885,7 +962,7 @@
       "mobile_search": 2360,
       "competition": "중간",
       "golden_ratio": 5.84,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "대용량보온병",
@@ -896,7 +973,7 @@
       "mobile_search": 1920,
       "competition": "중간",
       "golden_ratio": 5.82,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "뉴트리코어마그네슘",
@@ -907,7 +984,7 @@
       "mobile_search": 3440,
       "competition": "낮음",
       "golden_ratio": 5.8,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "고리수건",
@@ -918,7 +995,7 @@
       "mobile_search": 2920,
       "competition": "중간",
       "golden_ratio": 5.76,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "고함량오메가3",
@@ -929,7 +1006,7 @@
       "mobile_search": 1690,
       "competition": "중간",
       "golden_ratio": 5.75,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "근로장려금신청방법",
@@ -943,6 +1020,17 @@
       "trend": "유지"
     },
     {
+      "keyword": "승모근마사지기",
+      "category": "건강",
+      "seed": "발 마사지기 추천",
+      "monthly_search": 5680,
+      "pc_search": 960,
+      "mobile_search": 4720,
+      "competition": "중간",
+      "golden_ratio": 5.68,
+      "trend": "신규"
+    },
+    {
       "keyword": "스마트카라음식물처리기",
       "category": "IT",
       "seed": "음식물처리기 추천",
@@ -951,7 +1039,7 @@
       "mobile_search": 1850,
       "competition": "중간",
       "golden_ratio": 5.65,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "명품차량용방향제",
@@ -962,7 +1050,7 @@
       "mobile_search": 4340,
       "competition": "중간",
       "golden_ratio": 5.62,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "비타민D2000IU",
@@ -973,7 +1061,7 @@
       "mobile_search": 4080,
       "competition": "중간",
       "golden_ratio": 5.57,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "미니마사지건",
@@ -984,7 +1072,7 @@
       "mobile_search": 1620,
       "competition": "중간",
       "golden_ratio": 5.51,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "C타입고속충전기",
@@ -1000,7 +1088,7 @@
     {
       "keyword": "미니보조배터리",
       "category": "IT",
-      "seed": "보조배터리 기내 반입",
+      "seed": "미니 보조배터리",
       "monthly_search": 5460,
       "pc_search": 2340,
       "mobile_search": 3120,
@@ -1017,17 +1105,28 @@
       "mobile_search": 4260,
       "competition": "중간",
       "golden_ratio": 5.45,
+      "trend": "유지"
+    },
+    {
+      "keyword": "현관발매트",
+      "category": "IT",
+      "seed": "규조토 발매트",
+      "monthly_search": 5340,
+      "pc_search": 990,
+      "mobile_search": 4350,
+      "competition": "중간",
+      "golden_ratio": 5.34,
       "trend": "신규"
     },
     {
-      "keyword": "캠핑가방",
+      "keyword": "차선물세트",
       "category": "생활",
-      "seed": "캠핑 랜턴 추천",
-      "monthly_search": 5360,
-      "pc_search": 3200,
-      "mobile_search": 2160,
+      "seed": "핸드워시 선물세트",
+      "monthly_search": 5280,
+      "pc_search": 3750,
+      "mobile_search": 1530,
       "competition": "중간",
-      "golden_ratio": 5.36,
+      "golden_ratio": 5.28,
       "trend": "신규"
     },
     {
@@ -1039,7 +1138,7 @@
       "mobile_search": 1450,
       "competition": "중간",
       "golden_ratio": 5.26,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "삼성보조배터리20000",
@@ -1050,7 +1149,7 @@
       "mobile_search": 4200,
       "competition": "중간",
       "golden_ratio": 5.21,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "운전면허증적성검사",
@@ -1061,7 +1160,7 @@
       "mobile_search": 3410,
       "competition": "중간",
       "golden_ratio": 5.17,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "어린이집수건",
@@ -1072,7 +1171,7 @@
       "mobile_search": 2090,
       "competition": "중간",
       "golden_ratio": 5.14,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아쿠아픽구강세정기",
@@ -1083,28 +1182,39 @@
       "mobile_search": 4450,
       "competition": "중간",
       "golden_ratio": 5.09,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "무선보조배터리",
       "category": "IT",
-      "seed": "미니 보조배터리",
+      "seed": "보조배터리 기내 반입",
       "monthly_search": 5080,
       "pc_search": 1190,
       "mobile_search": 3890,
       "competition": "중간",
       "golden_ratio": 5.08,
+      "trend": "유지"
+    },
+    {
+      "keyword": "백일해예방접종가격",
+      "category": "건강",
+      "seed": "대상포진 예방접종 비용",
+      "monthly_search": 5070,
+      "pc_search": 550,
+      "mobile_search": 4520,
+      "competition": "중간",
+      "golden_ratio": 5.07,
       "trend": "신규"
     },
     {
-      "keyword": "유리텀블러",
+      "keyword": "견과류선물세트",
       "category": "생활",
-      "seed": "텀블러 보온병 추천",
-      "monthly_search": 5010,
-      "pc_search": 3760,
-      "mobile_search": 1250,
+      "seed": "핸드워시 선물세트",
+      "monthly_search": 5030,
+      "pc_search": 3750,
+      "mobile_search": 1280,
       "competition": "중간",
-      "golden_ratio": 5.01,
+      "golden_ratio": 5.03,
       "trend": "신규"
     },
     {
@@ -1116,7 +1226,7 @@
       "mobile_search": 3880,
       "competition": "중간",
       "golden_ratio": 4.99,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "수건가격",
@@ -1127,6 +1237,39 @@
       "mobile_search": 3710,
       "competition": "중간",
       "golden_ratio": 4.96,
+      "trend": "유지"
+    },
+    {
+      "keyword": "양말선물세트",
+      "category": "생활",
+      "seed": "핸드워시 선물세트",
+      "monthly_search": 4960,
+      "pc_search": 3780,
+      "mobile_search": 1180,
+      "competition": "중간",
+      "golden_ratio": 4.96,
+      "trend": "신규"
+    },
+    {
+      "keyword": "캠핑용장갑",
+      "category": "생활",
+      "seed": "캠핑 랜턴 추천",
+      "monthly_search": 4790,
+      "pc_search": 1290,
+      "mobile_search": 3500,
+      "competition": "중간",
+      "golden_ratio": 4.79,
+      "trend": "신규"
+    },
+    {
+      "keyword": "예금자보호한도",
+      "category": "경제",
+      "seed": "예금자보호 한도",
+      "monthly_search": 4770,
+      "pc_search": 900,
+      "mobile_search": 3870,
+      "competition": "중간",
+      "golden_ratio": 4.77,
       "trend": "신규"
     },
     {
@@ -1138,6 +1281,28 @@
       "mobile_search": 2580,
       "competition": "중간",
       "golden_ratio": 4.77,
+      "trend": "유지"
+    },
+    {
+      "keyword": "멸균우유1000ML",
+      "category": "육아",
+      "seed": "돌아기 우유 전환",
+      "monthly_search": 4760,
+      "pc_search": 830,
+      "mobile_search": 3930,
+      "competition": "중간",
+      "golden_ratio": 4.76,
+      "trend": "신규"
+    },
+    {
+      "keyword": "유치원답례품",
+      "category": "육아",
+      "seed": "돌잔치 답례품 추천",
+      "monthly_search": 4750,
+      "pc_search": 2890,
+      "mobile_search": 1860,
+      "competition": "중간",
+      "golden_ratio": 4.75,
       "trend": "신규"
     },
     {
@@ -1149,7 +1314,7 @@
       "mobile_search": 1760,
       "competition": "중간",
       "golden_ratio": 4.74,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "가성비블루투스이어폰",
@@ -1160,7 +1325,7 @@
       "mobile_search": 2500,
       "competition": "중간",
       "golden_ratio": 4.73,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "모바일주민등록증발급",
@@ -1171,15 +1336,15 @@
       "mobile_search": 2370,
       "competition": "낮음",
       "golden_ratio": 4.7,
-      "trend": "하락"
+      "trend": "유지"
     },
     {
-      "keyword": "신생아젖병",
-      "category": "육아",
-      "seed": "젖병 세척 방법",
+      "keyword": "건강보험료납부",
+      "category": "건강",
+      "seed": "스케일링 건강보험 적용",
       "monthly_search": 4690,
-      "pc_search": 1630,
-      "mobile_search": 3060,
+      "pc_search": 2710,
+      "mobile_search": 1980,
       "competition": "중간",
       "golden_ratio": 4.69,
       "trend": "신규"
@@ -1193,7 +1358,7 @@
       "mobile_search": 3790,
       "competition": "중간",
       "golden_ratio": 4.63,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "고속보조배터리",
@@ -1204,7 +1369,7 @@
       "mobile_search": 3380,
       "competition": "중간",
       "golden_ratio": 4.58,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "도킹형보조배터리",
@@ -1215,7 +1380,7 @@
       "mobile_search": 3580,
       "competition": "중간",
       "golden_ratio": 4.55,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아이폰보조배터리",
@@ -1226,7 +1391,7 @@
       "mobile_search": 1750,
       "competition": "중간",
       "golden_ratio": 4.51,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "여름슬리퍼",
@@ -1237,7 +1402,7 @@
       "mobile_search": 970,
       "competition": "중간",
       "golden_ratio": 4.49,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "영유아",
@@ -1251,13 +1416,13 @@
       "trend": "유지"
     },
     {
-      "keyword": "소상공인스마트상점",
-      "category": "경제",
-      "seed": "소상공인 대환대출",
-      "monthly_search": 4470,
-      "pc_search": 2710,
-      "mobile_search": 1760,
-      "competition": "중간",
+      "keyword": "설정",
+      "category": "IT",
+      "seed": "AI 전화 스팸 차단 설정",
+      "monthly_search": 2980,
+      "pc_search": 730,
+      "mobile_search": 2250,
+      "competition": "낮음",
       "golden_ratio": 4.47,
       "trend": "신규"
     },
@@ -1270,7 +1435,7 @@
       "mobile_search": 3710,
       "competition": "중간",
       "golden_ratio": 4.46,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "어린이용스마트워치",
@@ -1281,18 +1446,7 @@
       "mobile_search": 3390,
       "competition": "중간",
       "golden_ratio": 4.39,
-      "trend": "신규"
-    },
-    {
-      "keyword": "반자동커피머신",
-      "category": "생활",
-      "seed": "커피머신 캡슐",
-      "monthly_search": 4380,
-      "pc_search": 1090,
-      "mobile_search": 3290,
-      "competition": "중간",
-      "golden_ratio": 4.38,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "인플루엔자예방접종",
@@ -1303,18 +1457,7 @@
       "mobile_search": 3620,
       "competition": "중간",
       "golden_ratio": 4.37,
-      "trend": "신규"
-    },
-    {
-      "keyword": "젖병열탕소독",
-      "category": "육아",
-      "seed": "젖병 세척 방법",
-      "monthly_search": 4350,
-      "pc_search": 280,
-      "mobile_search": 4070,
-      "competition": "중간",
-      "golden_ratio": 4.35,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "음식물처리기분쇄",
@@ -1325,7 +1468,7 @@
       "mobile_search": 2840,
       "competition": "중간",
       "golden_ratio": 4.34,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "겨울아기우주복",
@@ -1347,7 +1490,7 @@
       "mobile_search": 700,
       "competition": "중간",
       "golden_ratio": 4.32,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "북스탠드",
@@ -1358,7 +1501,7 @@
       "mobile_search": 3040,
       "competition": "중간",
       "golden_ratio": 4.26,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "소규모돌잔치답례품",
@@ -1369,7 +1512,7 @@
       "mobile_search": 3830,
       "competition": "중간",
       "golden_ratio": 4.24,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "신일무선청소기",
@@ -1380,17 +1523,28 @@
       "mobile_search": 3370,
       "competition": "중간",
       "golden_ratio": 4.24,
+      "trend": "유지"
+    },
+    {
+      "keyword": "거실무드등",
+      "category": "생활",
+      "seed": "스탠드 무드등",
+      "monthly_search": 4220,
+      "pc_search": 3650,
+      "mobile_search": 570,
+      "competition": "중간",
+      "golden_ratio": 4.22,
       "trend": "신규"
     },
     {
-      "keyword": "대용량핸드워시",
+      "keyword": "손잡이텀블러",
       "category": "생활",
-      "seed": "핸드워시 선물세트",
-      "monthly_search": 4200,
-      "pc_search": 3760,
-      "mobile_search": 440,
+      "seed": "텀블러 보온병 추천",
+      "monthly_search": 4190,
+      "pc_search": 840,
+      "mobile_search": 3350,
       "competition": "중간",
-      "golden_ratio": 4.2,
+      "golden_ratio": 4.19,
       "trend": "신규"
     },
     {
@@ -1402,40 +1556,7 @@
       "mobile_search": 2640,
       "competition": "중간",
       "golden_ratio": 4.12,
-      "trend": "신규"
-    },
-    {
-      "keyword": "유리젖병",
-      "category": "육아",
-      "seed": "젖병 세척 방법",
-      "monthly_search": 4100,
-      "pc_search": 610,
-      "mobile_search": 3490,
-      "competition": "중간",
-      "golden_ratio": 4.1,
-      "trend": "신규"
-    },
-    {
-      "keyword": "무향핸드워시",
-      "category": "생활",
-      "seed": "핸드워시 선물세트",
-      "monthly_search": 4080,
-      "pc_search": 3690,
-      "mobile_search": 390,
-      "competition": "중간",
-      "golden_ratio": 4.08,
-      "trend": "신규"
-    },
-    {
-      "keyword": "손가락마사지기",
-      "category": "건강",
-      "seed": "발 마사지기 추천",
-      "monthly_search": 4060,
-      "pc_search": 900,
-      "mobile_search": 3160,
-      "competition": "중간",
-      "golden_ratio": 4.06,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "미니무선청소기",
@@ -1446,7 +1567,7 @@
       "mobile_search": 780,
       "competition": "중간",
       "golden_ratio": 4.05,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "가정용음식물처리기",
@@ -1457,7 +1578,7 @@
       "mobile_search": 2140,
       "competition": "중간",
       "golden_ratio": 3.99,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "친환경물티슈",
@@ -1468,7 +1589,7 @@
       "mobile_search": 220,
       "competition": "중간",
       "golden_ratio": 3.98,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "눈온열안대",
@@ -1479,7 +1600,7 @@
       "mobile_search": 3390,
       "competition": "중간",
       "golden_ratio": 3.97,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "등기부등본확인",
@@ -1490,7 +1611,7 @@
       "mobile_search": 210,
       "competition": "중간",
       "golden_ratio": 3.97,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "대림바스샤워기",
@@ -1501,7 +1622,7 @@
       "mobile_search": 3310,
       "competition": "중간",
       "golden_ratio": 3.95,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "케롯자동차보험",
@@ -1512,7 +1633,7 @@
       "mobile_search": 3070,
       "competition": "중간",
       "golden_ratio": 3.91,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "전동안마기",
@@ -1523,7 +1644,7 @@
       "mobile_search": 300,
       "competition": "중간",
       "golden_ratio": 3.9,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "휴대용안마기",
@@ -1534,18 +1655,7 @@
       "mobile_search": 490,
       "competition": "중간",
       "golden_ratio": 3.89,
-      "trend": "신규"
-    },
-    {
-      "keyword": "공기압마사지기",
-      "category": "건강",
-      "seed": "발 마사지기 추천",
-      "monthly_search": 3860,
-      "pc_search": 2970,
-      "mobile_search": 890,
-      "competition": "중간",
-      "golden_ratio": 3.86,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "초등실내화",
@@ -1556,7 +1666,7 @@
       "mobile_search": 1150,
       "competition": "중간",
       "golden_ratio": 3.86,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "헤파필터공기청정기",
@@ -1567,6 +1677,17 @@
       "mobile_search": 340,
       "competition": "중간",
       "golden_ratio": 3.85,
+      "trend": "유지"
+    },
+    {
+      "keyword": "뉴트리원루테인",
+      "category": "건강",
+      "seed": "루테인 눈 영양제",
+      "monthly_search": 3810,
+      "pc_search": 3500,
+      "mobile_search": 310,
+      "competition": "중간",
+      "golden_ratio": 3.81,
       "trend": "신규"
     },
     {
@@ -1578,6 +1699,17 @@
       "mobile_search": 200,
       "competition": "중간",
       "golden_ratio": 3.78,
+      "trend": "유지"
+    },
+    {
+      "keyword": "전세보증금반환보증",
+      "category": "경제",
+      "seed": "전세보증금 반환보증",
+      "monthly_search": 3770,
+      "pc_search": 1160,
+      "mobile_search": 2610,
+      "competition": "중간",
+      "golden_ratio": 3.77,
       "trend": "신규"
     },
     {
@@ -1589,17 +1721,17 @@
       "mobile_search": 160,
       "competition": "중간",
       "golden_ratio": 3.69,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "캠핑음식추천",
+      "keyword": "감성랜턴",
       "category": "생활",
       "seed": "캠핑 랜턴 추천",
-      "monthly_search": 3670,
-      "pc_search": 1280,
-      "mobile_search": 2390,
+      "monthly_search": 3630,
+      "pc_search": 3450,
+      "mobile_search": 180,
       "competition": "중간",
-      "golden_ratio": 3.67,
+      "golden_ratio": 3.63,
       "trend": "신규"
     },
     {
@@ -1611,51 +1743,7 @@
       "mobile_search": 840,
       "competition": "중간",
       "golden_ratio": 3.61,
-      "trend": "신규"
-    },
-    {
-      "keyword": "젖병세척솔",
-      "category": "육아",
-      "seed": "젖병 세척 방법",
-      "monthly_search": 3590,
-      "pc_search": 520,
-      "mobile_search": 3070,
-      "competition": "중간",
-      "golden_ratio": 3.59,
-      "trend": "신규"
-    },
-    {
-      "keyword": "친환경핸드워시",
-      "category": "생활",
-      "seed": "핸드워시 선물세트",
-      "monthly_search": 3530,
-      "pc_search": 3520,
-      "mobile_search": 10,
-      "competition": "중간",
-      "golden_ratio": 3.53,
-      "trend": "신규"
-    },
-    {
-      "keyword": "부모님명절선물",
-      "category": "생활",
-      "seed": "신혼부부 선물",
-      "monthly_search": 3510,
-      "pc_search": 3480,
-      "mobile_search": 30,
-      "competition": "중간",
-      "golden_ratio": 3.51,
-      "trend": "신규"
-    },
-    {
-      "keyword": "연말정산모의계산",
-      "category": "경제",
-      "seed": "연말정산 미리보기",
-      "monthly_search": 2330,
-      "pc_search": 1610,
-      "mobile_search": 720,
-      "competition": "낮음",
-      "golden_ratio": 3.5,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "온열안마기",
@@ -1666,7 +1754,7 @@
       "mobile_search": 90,
       "competition": "중간",
       "golden_ratio": 3.46,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "맥세이프무선충전기",
@@ -1677,7 +1765,7 @@
       "mobile_search": 2420,
       "competition": "중간",
       "golden_ratio": 3.36,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "물걸레로봇청소기",
@@ -1688,18 +1776,7 @@
       "mobile_search": 2610,
       "competition": "중간",
       "golden_ratio": 3.33,
-      "trend": "신규"
-    },
-    {
-      "keyword": "남대문아기옷",
-      "category": "육아",
-      "seed": "아기 겨울 외출복",
-      "monthly_search": 3320,
-      "pc_search": 360,
-      "mobile_search": 2960,
-      "competition": "중간",
-      "golden_ratio": 3.32,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아이패드에어5케이스",
@@ -1710,28 +1787,39 @@
       "mobile_search": 520,
       "competition": "중간",
       "golden_ratio": 3.3,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "폐렴예방접종가격",
+      "keyword": "건강검진대상자",
       "category": "건강",
-      "seed": "대상포진 예방접종 비용",
-      "monthly_search": 3280,
-      "pc_search": 220,
-      "mobile_search": 3060,
+      "seed": "국가건강검진 대상자 조회",
+      "monthly_search": 3100,
+      "pc_search": 1100,
+      "mobile_search": 2000,
       "competition": "중간",
-      "golden_ratio": 3.28,
+      "golden_ratio": 3.1,
       "trend": "신규"
     },
     {
-      "keyword": "퇴사답례품",
+      "keyword": "CJ택배방문접수",
       "category": "생활",
-      "seed": "퇴사 선물 추천",
-      "monthly_search": 3170,
-      "pc_search": 580,
-      "mobile_search": 2590,
+      "seed": "우체국 택배 방문접수",
+      "monthly_search": 2030,
+      "pc_search": 430,
+      "mobile_search": 1600,
+      "competition": "낮음",
+      "golden_ratio": 3.04,
+      "trend": "신규"
+    },
+    {
+      "keyword": "초음파안경세척기",
+      "category": "육아",
+      "seed": "젖병 세척 방법",
+      "monthly_search": 3040,
+      "pc_search": 730,
+      "mobile_search": 2310,
       "competition": "중간",
-      "golden_ratio": 3.17,
+      "golden_ratio": 3.04,
       "trend": "신규"
     },
     {
@@ -1743,6 +1831,17 @@
       "mobile_search": 2760,
       "competition": "중간",
       "golden_ratio": 3.03,
+      "trend": "유지"
+    },
+    {
+      "keyword": "성인식판",
+      "category": "육아",
+      "seed": "아기 식판 추천",
+      "monthly_search": 3020,
+      "pc_search": 430,
+      "mobile_search": 2590,
+      "competition": "중간",
+      "golden_ratio": 3.02,
       "trend": "신규"
     },
     {
@@ -1754,7 +1853,7 @@
       "mobile_search": 960,
       "competition": "낮음",
       "golden_ratio": 3.0,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "무선청소기순위",
@@ -1763,6 +1862,17 @@
       "monthly_search": 2990,
       "pc_search": 1020,
       "mobile_search": 1970,
+      "competition": "중간",
+      "golden_ratio": 2.99,
+      "trend": "유지"
+    },
+    {
+      "keyword": "아기해열제",
+      "category": "육아",
+      "seed": "아기 해열제 종류",
+      "monthly_search": 2990,
+      "pc_search": 200,
+      "mobile_search": 2790,
       "competition": "중간",
       "golden_ratio": 2.99,
       "trend": "신규"
@@ -1776,7 +1886,7 @@
       "mobile_search": 2450,
       "competition": "중간",
       "golden_ratio": 2.98,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "근로장려금조건",
@@ -1787,7 +1897,7 @@
       "mobile_search": 1430,
       "competition": "낮음",
       "golden_ratio": 2.94,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "극세사발매트",
@@ -1798,7 +1908,7 @@
       "mobile_search": 2680,
       "competition": "중간",
       "golden_ratio": 2.93,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아이폰무선충전기",
@@ -1809,7 +1919,7 @@
       "mobile_search": 2100,
       "competition": "중간",
       "golden_ratio": 2.93,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "전기포트추천",
@@ -1820,6 +1930,28 @@
       "mobile_search": 2050,
       "competition": "중간",
       "golden_ratio": 2.92,
+      "trend": "유지"
+    },
+    {
+      "keyword": "유아치약",
+      "category": "육아",
+      "seed": "유아 치약 불소",
+      "monthly_search": 2910,
+      "pc_search": 200,
+      "mobile_search": 2710,
+      "competition": "중간",
+      "golden_ratio": 2.91,
+      "trend": "신규"
+    },
+    {
+      "keyword": "젖병세정제",
+      "category": "육아",
+      "seed": "젖병 세척 방법",
+      "monthly_search": 2890,
+      "pc_search": 880,
+      "mobile_search": 2010,
+      "competition": "중간",
+      "golden_ratio": 2.89,
       "trend": "신규"
     },
     {
@@ -1831,7 +1963,7 @@
       "mobile_search": 2220,
       "competition": "중간",
       "golden_ratio": 2.86,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "브리츠블루투스이어폰",
@@ -1842,6 +1974,17 @@
       "mobile_search": 2300,
       "competition": "중간",
       "golden_ratio": 2.85,
+      "trend": "유지"
+    },
+    {
+      "keyword": "차량용방향제추천",
+      "category": "IT",
+      "seed": "차량용 방향제 추천",
+      "monthly_search": 2840,
+      "pc_search": 1080,
+      "mobile_search": 1760,
+      "competition": "중간",
+      "golden_ratio": 2.84,
       "trend": "신규"
     },
     {
@@ -1853,7 +1996,7 @@
       "mobile_search": 2060,
       "competition": "중간",
       "golden_ratio": 2.83,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "자격득실확인서발급",
@@ -1864,18 +2007,7 @@
       "mobile_search": 970,
       "competition": "중간",
       "golden_ratio": 2.82,
-      "trend": "신규"
-    },
-    {
-      "keyword": "아이패드에어5세대케이스",
-      "category": "IT",
-      "seed": "아이패드 케이스 추천",
-      "monthly_search": 2780,
-      "pc_search": 1830,
-      "mobile_search": 950,
-      "competition": "중간",
-      "golden_ratio": 2.78,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "미니차량용청소기",
@@ -1886,6 +2018,17 @@
       "mobile_search": 90,
       "competition": "중간",
       "golden_ratio": 2.71,
+      "trend": "유지"
+    },
+    {
+      "keyword": "스마트콘센트",
+      "category": "IT",
+      "seed": "스마트 플러그 추천",
+      "monthly_search": 2700,
+      "pc_search": 780,
+      "mobile_search": 1920,
+      "competition": "중간",
+      "golden_ratio": 2.7,
       "trend": "신규"
     },
     {
@@ -1895,6 +2038,17 @@
       "monthly_search": 2690,
       "pc_search": 230,
       "mobile_search": 2460,
+      "competition": "중간",
+      "golden_ratio": 2.69,
+      "trend": "유지"
+    },
+    {
+      "keyword": "돌아기우유",
+      "category": "육아",
+      "seed": "돌아기 우유 전환",
+      "monthly_search": 2690,
+      "pc_search": 200,
+      "mobile_search": 2490,
       "competition": "중간",
       "golden_ratio": 2.69,
       "trend": "신규"
@@ -1908,7 +2062,7 @@
       "mobile_search": 2050,
       "competition": "중간",
       "golden_ratio": 2.67,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "소상공인새출발기금",
@@ -1919,7 +2073,7 @@
       "mobile_search": 2130,
       "competition": "중간",
       "golden_ratio": 2.64,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "카시트추천",
@@ -1941,28 +2095,17 @@
       "mobile_search": 1270,
       "competition": "중간",
       "golden_ratio": 2.59,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "허리근육강화운동",
-      "category": "건강",
-      "seed": "허리 디스크 스트레칭",
-      "monthly_search": 2530,
-      "pc_search": 200,
-      "mobile_search": 2330,
+      "keyword": "아기중이염증상",
+      "category": "육아",
+      "seed": "아기 중이염 증상",
+      "monthly_search": 2590,
+      "pc_search": 120,
+      "mobile_search": 2470,
       "competition": "중간",
-      "golden_ratio": 2.53,
-      "trend": "신규"
-    },
-    {
-      "keyword": "대상포진치료방법",
-      "category": "건강",
-      "seed": "대상포진 예방접종 비용",
-      "monthly_search": 2500,
-      "pc_search": 170,
-      "mobile_search": 2330,
-      "competition": "중간",
-      "golden_ratio": 2.5,
+      "golden_ratio": 2.59,
       "trend": "신규"
     },
     {
@@ -1974,7 +2117,7 @@
       "mobile_search": 1520,
       "competition": "낮음",
       "golden_ratio": 2.47,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "OMRON혈압계",
@@ -1985,6 +2128,17 @@
       "mobile_search": 2120,
       "competition": "중간",
       "golden_ratio": 2.46,
+      "trend": "유지"
+    },
+    {
+      "keyword": "곡물도자기식판",
+      "category": "육아",
+      "seed": "아기 식판 추천",
+      "monthly_search": 2440,
+      "pc_search": 180,
+      "mobile_search": 2260,
+      "competition": "중간",
+      "golden_ratio": 2.44,
       "trend": "신규"
     },
     {
@@ -1996,7 +2150,7 @@
       "mobile_search": 1750,
       "competition": "중간",
       "golden_ratio": 2.44,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "노트북듀얼모니터",
@@ -2018,28 +2172,39 @@
       "mobile_search": 1930,
       "competition": "중간",
       "golden_ratio": 2.39,
+      "trend": "유지"
+    },
+    {
+      "keyword": "이유식식판",
+      "category": "육아",
+      "seed": "아기 식판 추천",
+      "monthly_search": 2330,
+      "pc_search": 210,
+      "mobile_search": 2120,
+      "competition": "중간",
+      "golden_ratio": 2.33,
       "trend": "신규"
     },
     {
-      "keyword": "암막수면안대",
+      "keyword": "갑상선수치",
       "category": "건강",
-      "seed": "수면안대 온열안대 추천",
+      "seed": "갑상선 기능검사 비용",
       "monthly_search": 2290,
-      "pc_search": 340,
-      "mobile_search": 1950,
+      "pc_search": 350,
+      "mobile_search": 1940,
       "competition": "중간",
       "golden_ratio": 2.29,
       "trend": "신규"
     },
     {
-      "keyword": "직배수로봇청소기",
-      "category": "IT",
-      "seed": "로봇청소기 추천",
-      "monthly_search": 2260,
-      "pc_search": 520,
-      "mobile_search": 1740,
+      "keyword": "갑상선암수술병원",
+      "category": "건강",
+      "seed": "갑상선 기능검사 비용",
+      "monthly_search": 2270,
+      "pc_search": 2060,
+      "mobile_search": 210,
       "competition": "중간",
-      "golden_ratio": 2.26,
+      "golden_ratio": 2.27,
       "trend": "신규"
     },
     {
@@ -2051,7 +2216,7 @@
       "mobile_search": 1060,
       "competition": "중간",
       "golden_ratio": 2.25,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "초기이유식쌀미음",
@@ -2062,7 +2227,7 @@
       "mobile_search": 2170,
       "competition": "중간",
       "golden_ratio": 2.23,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "부모님",
@@ -2073,7 +2238,7 @@
       "mobile_search": 1240,
       "competition": "낮음",
       "golden_ratio": 2.21,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "PNT마그네슘",
@@ -2084,18 +2249,7 @@
       "mobile_search": 1260,
       "competition": "낮음",
       "golden_ratio": 2.11,
-      "trend": "신규"
-    },
-    {
-      "keyword": "얼굴대상포진증상",
-      "category": "건강",
-      "seed": "대상포진 예방접종 비용",
-      "monthly_search": 2110,
-      "pc_search": 160,
-      "mobile_search": 1950,
-      "competition": "중간",
-      "golden_ratio": 2.11,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "오스템구강세정기",
@@ -2106,7 +2260,7 @@
       "mobile_search": 1920,
       "competition": "중간",
       "golden_ratio": 2.1,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "침대태블릿거치대",
@@ -2117,18 +2271,7 @@
       "mobile_search": 1540,
       "competition": "중간",
       "golden_ratio": 2.1,
-      "trend": "신규"
-    },
-    {
-      "keyword": "어린이집선생님선물",
-      "category": "생활",
-      "seed": "신혼부부 선물",
-      "monthly_search": 2090,
-      "pc_search": 230,
-      "mobile_search": 1860,
-      "competition": "중간",
-      "golden_ratio": 2.09,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "내보험금찾아줌",
@@ -2139,7 +2282,7 @@
       "mobile_search": 1870,
       "competition": "중간",
       "golden_ratio": 2.08,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "마그네슘영양제효능",
@@ -2150,7 +2293,7 @@
       "mobile_search": 1540,
       "competition": "중간",
       "golden_ratio": 2.08,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "프리랜서3.3%계산기",
@@ -2161,6 +2304,17 @@
       "mobile_search": 990,
       "competition": "낮음",
       "golden_ratio": 2.07,
+      "trend": "유지"
+    },
+    {
+      "keyword": "어린이집입소",
+      "category": "육아",
+      "seed": "어린이집 입소 준비물",
+      "monthly_search": 2060,
+      "pc_search": 370,
+      "mobile_search": 1690,
+      "competition": "중간",
+      "golden_ratio": 2.06,
       "trend": "신규"
     },
     {
@@ -2172,7 +2326,7 @@
       "mobile_search": 1060,
       "competition": "중간",
       "golden_ratio": 2.02,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "디퓨저리필",
@@ -2183,7 +2337,7 @@
       "mobile_search": 1750,
       "competition": "중간",
       "golden_ratio": 2.01,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "프로바이오틱스유산균추천",
@@ -2197,6 +2351,17 @@
       "trend": "유지"
     },
     {
+      "keyword": "건강보험료계산기",
+      "category": "건강",
+      "seed": "스케일링 건강보험 적용",
+      "monthly_search": 1330,
+      "pc_search": 780,
+      "mobile_search": 550,
+      "competition": "낮음",
+      "golden_ratio": 2.0,
+      "trend": "신규"
+    },
+    {
       "keyword": "신생아겨울외출복",
       "category": "육아",
       "seed": "아기 겨울 외출복",
@@ -2205,17 +2370,28 @@
       "mobile_search": 1930,
       "competition": "중간",
       "golden_ratio": 2.0,
+      "trend": "유지"
+    },
+    {
+      "keyword": "임산부출산선물",
+      "category": "육아",
+      "seed": "출산 선물 추천",
+      "monthly_search": 1990,
+      "pc_search": 200,
+      "mobile_search": 1790,
+      "competition": "중간",
+      "golden_ratio": 1.99,
       "trend": "신규"
     },
     {
-      "keyword": "스트레칭기구",
-      "category": "건강",
-      "seed": "허리 디스크 스트레칭",
-      "monthly_search": 1970,
-      "pc_search": 1070,
-      "mobile_search": 900,
+      "keyword": "답례품추천",
+      "category": "육아",
+      "seed": "돌잔치 답례품 추천",
+      "monthly_search": 1980,
+      "pc_search": 940,
+      "mobile_search": 1040,
       "competition": "중간",
-      "golden_ratio": 1.97,
+      "golden_ratio": 1.98,
       "trend": "신규"
     },
     {
@@ -2230,6 +2406,17 @@
       "trend": "유지"
     },
     {
+      "keyword": "미니가습기추천",
+      "category": "IT",
+      "seed": "미니 가습기 추천",
+      "monthly_search": 1940,
+      "pc_search": 630,
+      "mobile_search": 1310,
+      "competition": "중간",
+      "golden_ratio": 1.94,
+      "trend": "신규"
+    },
+    {
       "keyword": "파나소닉구강세정기",
       "category": "건강",
       "seed": "구강세정기 추천",
@@ -2238,6 +2425,28 @@
       "mobile_search": 1570,
       "competition": "중간",
       "golden_ratio": 1.92,
+      "trend": "유지"
+    },
+    {
+      "keyword": "아기기저귀발진",
+      "category": "육아",
+      "seed": "아기 기저귀 발진",
+      "monthly_search": 1900,
+      "pc_search": 60,
+      "mobile_search": 1840,
+      "competition": "중간",
+      "golden_ratio": 1.9,
+      "trend": "신규"
+    },
+    {
+      "keyword": "SBI저축은행대환대출",
+      "category": "경제",
+      "seed": "소상공인 대환대출",
+      "monthly_search": 1890,
+      "pc_search": 200,
+      "mobile_search": 1690,
+      "competition": "중간",
+      "golden_ratio": 1.89,
       "trend": "신규"
     },
     {
@@ -2260,7 +2469,7 @@
       "mobile_search": 760,
       "competition": "중간",
       "golden_ratio": 1.86,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "하나원데이자동차보험",
@@ -2271,7 +2480,7 @@
       "mobile_search": 1760,
       "competition": "중간",
       "golden_ratio": 1.84,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "인바디혈압계",
@@ -2282,7 +2491,7 @@
       "mobile_search": 930,
       "competition": "중간",
       "golden_ratio": 1.82,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "1인용전기방석",
@@ -2293,17 +2502,17 @@
       "mobile_search": 1310,
       "competition": "중간",
       "golden_ratio": 1.79,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "택배파인더",
+      "keyword": "캠핑용품추천",
       "category": "생활",
-      "seed": "우체국 택배 방문접수",
-      "monthly_search": 1190,
-      "pc_search": 350,
-      "mobile_search": 840,
-      "competition": "낮음",
-      "golden_ratio": 1.78,
+      "seed": "캠핑 랜턴 추천",
+      "monthly_search": 1770,
+      "pc_search": 280,
+      "mobile_search": 1490,
+      "competition": "중간",
+      "golden_ratio": 1.77,
       "trend": "신규"
     },
     {
@@ -2315,7 +2524,7 @@
       "mobile_search": 1450,
       "competition": "중간",
       "golden_ratio": 1.76,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "AI전화",
@@ -2337,7 +2546,7 @@
       "mobile_search": 1400,
       "competition": "중간",
       "golden_ratio": 1.7,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "오아전동칫솔",
@@ -2348,7 +2557,7 @@
       "mobile_search": 1380,
       "competition": "중간",
       "golden_ratio": 1.7,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "음파전동칫솔",
@@ -2359,18 +2568,7 @@
       "mobile_search": 1370,
       "competition": "중간",
       "golden_ratio": 1.65,
-      "trend": "신규"
-    },
-    {
-      "keyword": "아기중이염",
-      "category": "육아",
-      "seed": "아기 중이염 증상",
-      "monthly_search": 1620,
-      "pc_search": 180,
-      "mobile_search": 1440,
-      "competition": "중간",
-      "golden_ratio": 1.62,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "다이소수면안대",
@@ -2381,7 +2579,7 @@
       "mobile_search": 1370,
       "competition": "중간",
       "golden_ratio": 1.59,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "자동혈압계",
@@ -2392,7 +2590,7 @@
       "mobile_search": 930,
       "competition": "중간",
       "golden_ratio": 1.58,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "건강보험이디아이",
@@ -2403,18 +2601,7 @@
       "mobile_search": 30,
       "competition": "중간",
       "golden_ratio": 1.55,
-      "trend": "신규"
-    },
-    {
-      "keyword": "차량용석고방향제",
-      "category": "IT",
-      "seed": "차량용 방향제 추천",
-      "monthly_search": 1540,
-      "pc_search": 310,
-      "mobile_search": 1230,
-      "competition": "중간",
-      "golden_ratio": 1.54,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "고속무선충전기",
@@ -2425,7 +2612,7 @@
       "mobile_search": 500,
       "competition": "중간",
       "golden_ratio": 1.53,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "전세자금대출계산기",
@@ -2436,7 +2623,7 @@
       "mobile_search": 720,
       "competition": "낮음",
       "golden_ratio": 1.53,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "본인부담상한액",
@@ -2450,25 +2637,14 @@
       "trend": "유지"
     },
     {
-      "keyword": "음식물처리기필터",
-      "category": "IT",
-      "seed": "음식물처리기 추천",
-      "monthly_search": 1510,
-      "pc_search": 360,
-      "mobile_search": 1150,
+      "keyword": "고용증대세액공제",
+      "category": "경제",
+      "seed": "월세 세액공제 배우자",
+      "monthly_search": 1490,
+      "pc_search": 1070,
+      "mobile_search": 420,
       "competition": "중간",
-      "golden_ratio": 1.51,
-      "trend": "신규"
-    },
-    {
-      "keyword": "전기요금할인",
-      "category": "육아",
-      "seed": "전기요금 복지할인 출산가구",
-      "monthly_search": 1500,
-      "pc_search": 950,
-      "mobile_search": 550,
-      "competition": "중간",
-      "golden_ratio": 1.5,
+      "golden_ratio": 1.49,
       "trend": "신규"
     },
     {
@@ -2480,6 +2656,28 @@
       "mobile_search": 1010,
       "competition": "중간",
       "golden_ratio": 1.49,
+      "trend": "유지"
+    },
+    {
+      "keyword": "건강보험료인상",
+      "category": "건강",
+      "seed": "스케일링 건강보험 적용",
+      "monthly_search": 1480,
+      "pc_search": 620,
+      "mobile_search": 860,
+      "competition": "중간",
+      "golden_ratio": 1.48,
+      "trend": "신규"
+    },
+    {
+      "keyword": "아기물티슈추천",
+      "category": "육아",
+      "seed": "아기 물티슈 추천",
+      "monthly_search": 1440,
+      "pc_search": 520,
+      "mobile_search": 920,
+      "competition": "중간",
+      "golden_ratio": 1.44,
       "trend": "신규"
     },
     {
@@ -2491,6 +2689,17 @@
       "mobile_search": 1260,
       "competition": "중간",
       "golden_ratio": 1.43,
+      "trend": "유지"
+    },
+    {
+      "keyword": "확정일자받는법",
+      "category": "생활",
+      "seed": "전입신고 확정일자",
+      "monthly_search": 1420,
+      "pc_search": 130,
+      "mobile_search": 1290,
+      "competition": "중간",
+      "golden_ratio": 1.42,
       "trend": "신규"
     },
     {
@@ -2502,18 +2711,7 @@
       "mobile_search": 680,
       "competition": "중간",
       "golden_ratio": 1.39,
-      "trend": "신규"
-    },
-    {
-      "keyword": "물티슈추천",
-      "category": "육아",
-      "seed": "아기 물티슈 추천",
-      "monthly_search": 1380,
-      "pc_search": 630,
-      "mobile_search": 750,
-      "competition": "중간",
-      "golden_ratio": 1.38,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "한일온열찜질기",
@@ -2524,7 +2722,7 @@
       "mobile_search": 1070,
       "competition": "중간",
       "golden_ratio": 1.37,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "USB전기방석",
@@ -2535,7 +2733,7 @@
       "mobile_search": 970,
       "competition": "중간",
       "golden_ratio": 1.34,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "전세자금대출이자",
@@ -2546,7 +2744,7 @@
       "mobile_search": 870,
       "competition": "중간",
       "golden_ratio": 1.33,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "노트북보조모니터",
@@ -2557,17 +2755,61 @@
       "mobile_search": 790,
       "competition": "중간",
       "golden_ratio": 1.31,
+      "trend": "유지"
+    },
+    {
+      "keyword": "아기샤워캡",
+      "category": "육아",
+      "seed": "아기 목욕용품 추천",
+      "monthly_search": 1290,
+      "pc_search": 110,
+      "mobile_search": 1180,
+      "competition": "중간",
+      "golden_ratio": 1.29,
       "trend": "신규"
     },
     {
-      "keyword": "LG포터블모니터",
-      "category": "IT",
-      "seed": "휴대용 모니터 추천",
-      "monthly_search": 1290,
-      "pc_search": 520,
-      "mobile_search": 770,
+      "keyword": "아기배밀이시기",
+      "category": "육아",
+      "seed": "아기 배밀이 시기",
+      "monthly_search": 1260,
+      "pc_search": 60,
+      "mobile_search": 1200,
       "competition": "중간",
-      "golden_ratio": 1.29,
+      "golden_ratio": 1.26,
+      "trend": "신규"
+    },
+    {
+      "keyword": "캠핑랜턴추천",
+      "category": "생활",
+      "seed": "캠핑 랜턴 추천",
+      "monthly_search": 1260,
+      "pc_search": 450,
+      "mobile_search": 810,
+      "competition": "중간",
+      "golden_ratio": 1.26,
+      "trend": "신규"
+    },
+    {
+      "keyword": "독감무료접종",
+      "category": "건강",
+      "seed": "독감 무료접종 3가 백신",
+      "monthly_search": 1250,
+      "pc_search": 260,
+      "mobile_search": 990,
+      "competition": "중간",
+      "golden_ratio": 1.25,
+      "trend": "신규"
+    },
+    {
+      "keyword": "아인슈타인우유",
+      "category": "육아",
+      "seed": "돌아기 우유 전환",
+      "monthly_search": 1240,
+      "pc_search": 150,
+      "mobile_search": 1090,
+      "competition": "중간",
+      "golden_ratio": 1.24,
       "trend": "신규"
     },
     {
@@ -2579,7 +2821,7 @@
       "mobile_search": 540,
       "competition": "낮음",
       "golden_ratio": 1.22,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "초기소고기이유식",
@@ -2590,7 +2832,7 @@
       "mobile_search": 1180,
       "competition": "중간",
       "golden_ratio": 1.21,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "부산도시가스공사",
@@ -2601,7 +2843,7 @@
       "mobile_search": 620,
       "competition": "낮음",
       "golden_ratio": 1.2,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "이유식야채큐브",
@@ -2612,18 +2854,7 @@
       "mobile_search": 1150,
       "competition": "중간",
       "golden_ratio": 1.2,
-      "trend": "신규"
-    },
-    {
-      "keyword": "가성비태블릿추천",
-      "category": "IT",
-      "seed": "태블릿 거치대 추천",
-      "monthly_search": 1180,
-      "pc_search": 320,
-      "mobile_search": 860,
-      "competition": "중간",
-      "golden_ratio": 1.18,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "가성비스마트워치",
@@ -2634,17 +2865,6 @@
       "mobile_search": 860,
       "competition": "중간",
       "golden_ratio": 1.17,
-      "trend": "신규"
-    },
-    {
-      "keyword": "루테인영양제",
-      "category": "건강",
-      "seed": "루테인 눈 영양제",
-      "monthly_search": 1160,
-      "pc_search": 350,
-      "mobile_search": 810,
-      "competition": "중간",
-      "golden_ratio": 1.16,
       "trend": "유지"
     },
     {
@@ -2656,18 +2876,7 @@
       "mobile_search": 830,
       "competition": "중간",
       "golden_ratio": 1.15,
-      "trend": "신규"
-    },
-    {
-      "keyword": "태블릿PC추천",
-      "category": "IT",
-      "seed": "태블릿 거치대 추천",
-      "monthly_search": 1140,
-      "pc_search": 260,
-      "mobile_search": 880,
-      "competition": "중간",
-      "golden_ratio": 1.14,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "건강보험공단피부양자등록",
@@ -2678,7 +2887,7 @@
       "mobile_search": 460,
       "competition": "중간",
       "golden_ratio": 1.13,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "주택실거래가조회",
@@ -2689,17 +2898,17 @@
       "mobile_search": 580,
       "competition": "중간",
       "golden_ratio": 1.11,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "노인임플란트지원",
-      "category": "건강",
-      "seed": "임플란트 건강보험",
-      "monthly_search": 1090,
-      "pc_search": 130,
-      "mobile_search": 960,
+      "keyword": "220V플러그",
+      "category": "IT",
+      "seed": "스마트 플러그 추천",
+      "monthly_search": 1060,
+      "pc_search": 370,
+      "mobile_search": 690,
       "competition": "중간",
-      "golden_ratio": 1.09,
+      "golden_ratio": 1.06,
       "trend": "신규"
     },
     {
@@ -2711,17 +2920,39 @@
       "mobile_search": 580,
       "competition": "낮음",
       "golden_ratio": 1.05,
+      "trend": "유지"
+    },
+    {
+      "keyword": "어린이고불소치약",
+      "category": "육아",
+      "seed": "유아 치약 불소",
+      "monthly_search": 1050,
+      "pc_search": 140,
+      "mobile_search": 910,
+      "competition": "중간",
+      "golden_ratio": 1.05,
       "trend": "신규"
     },
     {
-      "keyword": "허리통증완화방법",
-      "category": "건강",
-      "seed": "허리 디스크 스트레칭",
-      "monthly_search": 1040,
-      "pc_search": 450,
-      "mobile_search": 590,
+      "keyword": "돌잔치답례품추천",
+      "category": "육아",
+      "seed": "돌잔치 답례품 추천",
+      "monthly_search": 1000,
+      "pc_search": 220,
+      "mobile_search": 780,
       "competition": "중간",
-      "golden_ratio": 1.04,
+      "golden_ratio": 1.0,
+      "trend": "신규"
+    },
+    {
+      "keyword": "아기불소치약",
+      "category": "육아",
+      "seed": "유아 치약 불소",
+      "monthly_search": 1000,
+      "pc_search": 100,
+      "mobile_search": 900,
+      "competition": "중간",
+      "golden_ratio": 1.0,
       "trend": "신규"
     },
     {
@@ -2733,7 +2964,7 @@
       "mobile_search": 530,
       "competition": "중간",
       "golden_ratio": 0.99,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "현대해상일일자동차보험",
@@ -2744,7 +2975,7 @@
       "mobile_search": 920,
       "competition": "중간",
       "golden_ratio": 0.99,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "대법원등기부열람",
@@ -2755,6 +2986,28 @@
       "mobile_search": 160,
       "competition": "낮음",
       "golden_ratio": 0.98,
+      "trend": "유지"
+    },
+    {
+      "keyword": "직장동료퇴사선물",
+      "category": "생활",
+      "seed": "퇴사 선물 추천",
+      "monthly_search": 970,
+      "pc_search": 190,
+      "mobile_search": 780,
+      "competition": "중간",
+      "golden_ratio": 0.97,
+      "trend": "신규"
+    },
+    {
+      "keyword": "항체검사",
+      "category": "건강",
+      "seed": "A형간염 항체검사",
+      "monthly_search": 970,
+      "pc_search": 110,
+      "mobile_search": 860,
+      "competition": "중간",
+      "golden_ratio": 0.97,
       "trend": "신규"
     },
     {
@@ -2766,7 +3019,7 @@
       "mobile_search": 780,
       "competition": "중간",
       "golden_ratio": 0.97,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "고속충전기추천",
@@ -2777,7 +3030,7 @@
       "mobile_search": 480,
       "competition": "중간",
       "golden_ratio": 0.96,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "빨아쓰는규조토발매트",
@@ -2791,15 +3044,15 @@
       "trend": "유지"
     },
     {
-      "keyword": "겨울철",
+      "keyword": "주정차과태료",
       "category": "생활",
-      "seed": "겨울철 자동차 배터리 전압",
-      "monthly_search": 630,
-      "pc_search": 200,
-      "mobile_search": 430,
-      "competition": "낮음",
-      "golden_ratio": 0.95,
-      "trend": "유지"
+      "seed": "주정차 과태료 조회",
+      "monthly_search": 960,
+      "pc_search": 250,
+      "mobile_search": 710,
+      "competition": "중간",
+      "golden_ratio": 0.96,
+      "trend": "신규"
     },
     {
       "keyword": "절충형유모차추천",
@@ -2810,7 +3063,7 @@
       "mobile_search": 740,
       "competition": "중간",
       "golden_ratio": 0.95,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "무선미니가습기",
@@ -2821,7 +3074,7 @@
       "mobile_search": 560,
       "competition": "중간",
       "golden_ratio": 0.94,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "연금계좌세액공제",
@@ -2832,18 +3085,7 @@
       "mobile_search": 570,
       "competition": "중간",
       "golden_ratio": 0.94,
-      "trend": "신규"
-    },
-    {
-      "keyword": "싱크대발매트",
-      "category": "IT",
-      "seed": "규조토 발매트",
-      "monthly_search": 930,
-      "pc_search": 100,
-      "mobile_search": 830,
-      "competition": "중간",
-      "golden_ratio": 0.93,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "자동차할부계산",
@@ -2853,6 +3095,17 @@
       "pc_search": 190,
       "mobile_search": 430,
       "competition": "낮음",
+      "golden_ratio": 0.93,
+      "trend": "유지"
+    },
+    {
+      "keyword": "햇살론대환대출",
+      "category": "경제",
+      "seed": "소상공인 대환대출",
+      "monthly_search": 930,
+      "pc_search": 180,
+      "mobile_search": 750,
+      "competition": "중간",
       "golden_ratio": 0.93,
       "trend": "신규"
     },
@@ -2865,7 +3118,7 @@
       "mobile_search": 500,
       "competition": "낮음",
       "golden_ratio": 0.92,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "삼성증권ISA",
@@ -2875,6 +3128,17 @@
       "pc_search": 190,
       "mobile_search": 420,
       "competition": "낮음",
+      "golden_ratio": 0.92,
+      "trend": "유지"
+    },
+    {
+      "keyword": "어린이집입소준비물",
+      "category": "육아",
+      "seed": "어린이집 입소 준비물",
+      "monthly_search": 920,
+      "pc_search": 110,
+      "mobile_search": 810,
+      "competition": "중간",
       "golden_ratio": 0.92,
       "trend": "신규"
     },
@@ -2887,7 +3151,7 @@
       "mobile_search": 450,
       "competition": "중간",
       "golden_ratio": 0.91,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "중이염약",
@@ -2898,7 +3162,7 @@
       "mobile_search": 820,
       "competition": "중간",
       "golden_ratio": 0.91,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "휴대용보조모니터",
@@ -2909,6 +3173,17 @@
       "mobile_search": 560,
       "competition": "중간",
       "golden_ratio": 0.91,
+      "trend": "유지"
+    },
+    {
+      "keyword": "팩우유",
+      "category": "육아",
+      "seed": "돌아기 우유 전환",
+      "monthly_search": 890,
+      "pc_search": 160,
+      "mobile_search": 730,
+      "competition": "중간",
+      "golden_ratio": 0.89,
       "trend": "신규"
     },
     {
@@ -2920,7 +3195,7 @@
       "mobile_search": 760,
       "competition": "중간",
       "golden_ratio": 0.86,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "노트북거치대추천",
@@ -2931,7 +3206,7 @@
       "mobile_search": 190,
       "competition": "중간",
       "golden_ratio": 0.85,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "등기부등본열람기록",
@@ -2945,6 +3220,17 @@
       "trend": "유지"
     },
     {
+      "keyword": "아이패드케이스추천",
+      "category": "IT",
+      "seed": "아이패드 케이스 추천",
+      "monthly_search": 850,
+      "pc_search": 430,
+      "mobile_search": 420,
+      "competition": "중간",
+      "golden_ratio": 0.85,
+      "trend": "신규"
+    },
+    {
       "keyword": "주니어카시트추천",
       "category": "육아",
       "seed": "아기 카시트 추천",
@@ -2953,7 +3239,7 @@
       "mobile_search": 710,
       "competition": "중간",
       "golden_ratio": 0.85,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "핑크퐁아기상어",
@@ -2964,7 +3250,7 @@
       "mobile_search": 470,
       "competition": "낮음",
       "golden_ratio": 0.85,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "근로장려금계산기",
@@ -2974,6 +3260,28 @@
       "pc_search": 130,
       "mobile_search": 430,
       "competition": "낮음",
+      "golden_ratio": 0.84,
+      "trend": "유지"
+    },
+    {
+      "keyword": "아기물놀이장난감",
+      "category": "육아",
+      "seed": "아기 목욕용품 추천",
+      "monthly_search": 840,
+      "pc_search": 100,
+      "mobile_search": 740,
+      "competition": "중간",
+      "golden_ratio": 0.84,
+      "trend": "신규"
+    },
+    {
+      "keyword": "자동차배터리교체시기",
+      "category": "생활",
+      "seed": "겨울철 자동차 배터리 전압",
+      "monthly_search": 840,
+      "pc_search": 130,
+      "mobile_search": 710,
+      "competition": "중간",
       "golden_ratio": 0.84,
       "trend": "신규"
     },
@@ -2989,45 +3297,34 @@
       "trend": "유지"
     },
     {
-      "keyword": "아기백일선물추천",
-      "category": "육아",
-      "seed": "출산 선물 추천",
+      "keyword": "혈압계추천",
+      "category": "건강",
+      "seed": "혈압계 추천",
       "monthly_search": 830,
-      "pc_search": 90,
-      "mobile_search": 740,
+      "pc_search": 490,
+      "mobile_search": 340,
       "competition": "중간",
       "golden_ratio": 0.83,
       "trend": "신규"
     },
     {
-      "keyword": "예금자보호",
+      "keyword": "고향사랑기부제20만원",
       "category": "경제",
-      "seed": "예금자보호 한도",
-      "monthly_search": 830,
-      "pc_search": 270,
-      "mobile_search": 560,
-      "competition": "중간",
-      "golden_ratio": 0.83,
-      "trend": "유지"
-    },
-    {
-      "keyword": "착오송금",
-      "category": "경제",
-      "seed": "착오송금 반환지원 1억원",
-      "monthly_search": 810,
-      "pc_search": 250,
-      "mobile_search": 560,
-      "competition": "중간",
+      "seed": "고향사랑기부제 20만원 공제",
+      "monthly_search": 540,
+      "pc_search": 310,
+      "mobile_search": 230,
+      "competition": "낮음",
       "golden_ratio": 0.81,
-      "trend": "유지"
+      "trend": "신규"
     },
     {
-      "keyword": "화정임플란트",
-      "category": "건강",
-      "seed": "임플란트 건강보험",
+      "keyword": "아기겨울외출복",
+      "category": "육아",
+      "seed": "아기 겨울 외출복",
       "monthly_search": 800,
-      "pc_search": 10,
-      "mobile_search": 790,
+      "pc_search": 40,
+      "mobile_search": 760,
       "competition": "중간",
       "golden_ratio": 0.8,
       "trend": "신규"
@@ -3041,7 +3338,7 @@
       "mobile_search": 720,
       "competition": "중간",
       "golden_ratio": 0.79,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "농협문화누리카드",
@@ -3051,6 +3348,17 @@
       "pc_search": 70,
       "mobile_search": 450,
       "competition": "낮음",
+      "golden_ratio": 0.78,
+      "trend": "유지"
+    },
+    {
+      "keyword": "사무용모니터추천",
+      "category": "IT",
+      "seed": "휴대용 모니터 추천",
+      "monthly_search": 780,
+      "pc_search": 110,
+      "mobile_search": 670,
+      "competition": "중간",
       "golden_ratio": 0.78,
       "trend": "신규"
     },
@@ -3074,15 +3382,15 @@
       "mobile_search": 470,
       "competition": "낮음",
       "golden_ratio": 0.77,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "임플란트2차수술",
-      "category": "건강",
-      "seed": "임플란트 건강보험",
+      "keyword": "젖병세척",
+      "category": "육아",
+      "seed": "젖병 세척 방법",
       "monthly_search": 760,
-      "pc_search": 130,
-      "mobile_search": 630,
+      "pc_search": 60,
+      "mobile_search": 700,
       "competition": "중간",
       "golden_ratio": 0.76,
       "trend": "신규"
@@ -3096,6 +3404,17 @@
       "mobile_search": 450,
       "competition": "낮음",
       "golden_ratio": 0.75,
+      "trend": "유지"
+    },
+    {
+      "keyword": "허리디스크스트레칭",
+      "category": "건강",
+      "seed": "허리 디스크 스트레칭",
+      "monthly_search": 750,
+      "pc_search": 140,
+      "mobile_search": 610,
+      "competition": "중간",
+      "golden_ratio": 0.75,
       "trend": "신규"
     },
     {
@@ -3107,18 +3426,7 @@
       "mobile_search": 460,
       "competition": "낮음",
       "golden_ratio": 0.73,
-      "trend": "하락"
-    },
-    {
-      "keyword": "국민연금계산법",
-      "category": "경제",
-      "seed": "국민연금 임의가입",
-      "monthly_search": 700,
-      "pc_search": 150,
-      "mobile_search": 550,
-      "competition": "중간",
-      "golden_ratio": 0.7,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "퇴직연금세액공제",
@@ -3129,7 +3437,7 @@
       "mobile_search": 420,
       "competition": "중간",
       "golden_ratio": 0.7,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "프리랜서종합소득세",
@@ -3140,7 +3448,7 @@
       "mobile_search": 500,
       "competition": "중간",
       "golden_ratio": 0.69,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "부모님집들이선물",
@@ -3151,18 +3459,7 @@
       "mobile_search": 80,
       "competition": "중간",
       "golden_ratio": 0.68,
-      "trend": "신규"
-    },
-    {
-      "keyword": "유아도시락",
-      "category": "육아",
-      "seed": "유아 치약 불소",
-      "monthly_search": 680,
-      "pc_search": 90,
-      "mobile_search": 590,
-      "competition": "중간",
-      "golden_ratio": 0.68,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "내숨은보험금찾기",
@@ -3176,17 +3473,6 @@
       "trend": "유지"
     },
     {
-      "keyword": "이사선물추천",
-      "category": "생활",
-      "seed": "집들이 선물 추천",
-      "monthly_search": 660,
-      "pc_search": 100,
-      "mobile_search": 560,
-      "competition": "중간",
-      "golden_ratio": 0.66,
-      "trend": "신규"
-    },
-    {
       "keyword": "유아기저귀",
       "category": "육아",
       "seed": "아기 기저귀 발진",
@@ -3195,6 +3481,17 @@
       "mobile_search": 60,
       "competition": "중간",
       "golden_ratio": 0.65,
+      "trend": "유지"
+    },
+    {
+      "keyword": "부산갑상선명의",
+      "category": "건강",
+      "seed": "갑상선 기능검사 비용",
+      "monthly_search": 420,
+      "pc_search": 30,
+      "mobile_search": 390,
+      "competition": "낮음",
+      "golden_ratio": 0.63,
       "trend": "신규"
     },
     {
@@ -3206,6 +3503,17 @@
       "mobile_search": 310,
       "competition": "낮음",
       "golden_ratio": 0.63,
+      "trend": "유지"
+    },
+    {
+      "keyword": "목디스크명의",
+      "category": "건강",
+      "seed": "허리 디스크 스트레칭",
+      "monthly_search": 410,
+      "pc_search": 60,
+      "mobile_search": 350,
+      "competition": "낮음",
+      "golden_ratio": 0.61,
       "trend": "신규"
     },
     {
@@ -3217,7 +3525,7 @@
       "mobile_search": 240,
       "competition": "낮음",
       "golden_ratio": 0.61,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "여수운전면허학원",
@@ -3228,28 +3536,28 @@
       "mobile_search": 350,
       "competition": "낮음",
       "golden_ratio": 0.6,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "휴비딕혈압계",
+      "keyword": "갑상선조직검사비용",
       "category": "건강",
-      "seed": "혈압계 추천",
-      "monthly_search": 600,
-      "pc_search": 170,
-      "mobile_search": 430,
+      "seed": "갑상선 기능검사 비용",
+      "monthly_search": 590,
+      "pc_search": 50,
+      "mobile_search": 540,
       "competition": "중간",
-      "golden_ratio": 0.6,
+      "golden_ratio": 0.59,
       "trend": "신규"
     },
     {
-      "keyword": "60대엄마생신선물",
-      "category": "생활",
-      "seed": "퇴사 선물 추천",
-      "monthly_search": 580,
+      "keyword": "대상포진예방접종비용",
+      "category": "건강",
+      "seed": "대상포진 예방접종 비용",
+      "monthly_search": 590,
       "pc_search": 110,
-      "mobile_search": 470,
+      "mobile_search": 480,
       "competition": "중간",
-      "golden_ratio": 0.58,
+      "golden_ratio": 0.59,
       "trend": "신규"
     },
     {
@@ -3261,6 +3569,17 @@
       "mobile_search": 490,
       "competition": "중간",
       "golden_ratio": 0.58,
+      "trend": "유지"
+    },
+    {
+      "keyword": "스케일링건강보험",
+      "category": "건강",
+      "seed": "스케일링 건강보험 적용",
+      "monthly_search": 570,
+      "pc_search": 90,
+      "mobile_search": 480,
+      "competition": "중간",
+      "golden_ratio": 0.57,
       "trend": "신규"
     },
     {
@@ -3272,7 +3591,7 @@
       "mobile_search": 500,
       "competition": "중간",
       "golden_ratio": 0.57,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "여행용전기포트추천",
@@ -3281,6 +3600,28 @@
       "monthly_search": 570,
       "pc_search": 100,
       "mobile_search": 470,
+      "competition": "중간",
+      "golden_ratio": 0.57,
+      "trend": "유지"
+    },
+    {
+      "keyword": "전기요금복지할인",
+      "category": "육아",
+      "seed": "전기요금 복지할인 출산가구",
+      "monthly_search": 570,
+      "pc_search": 180,
+      "mobile_search": 390,
+      "competition": "중간",
+      "golden_ratio": 0.57,
+      "trend": "신규"
+    },
+    {
+      "keyword": "커피머신캡슐",
+      "category": "생활",
+      "seed": "커피머신 캡슐",
+      "monthly_search": 570,
+      "pc_search": 130,
+      "mobile_search": 440,
       "competition": "중간",
       "golden_ratio": 0.57,
       "trend": "신규"
@@ -3294,29 +3635,7 @@
       "mobile_search": 470,
       "competition": "중간",
       "golden_ratio": 0.56,
-      "trend": "신규"
-    },
-    {
-      "keyword": "앞니임플란트기간",
-      "category": "건강",
-      "seed": "임플란트 건강보험",
-      "monthly_search": 560,
-      "pc_search": 60,
-      "mobile_search": 500,
-      "competition": "중간",
-      "golden_ratio": 0.56,
-      "trend": "신규"
-    },
-    {
-      "keyword": "어르신선물추천",
-      "category": "생활",
-      "seed": "집들이 선물 추천",
-      "monthly_search": 560,
-      "pc_search": 100,
-      "mobile_search": 460,
-      "competition": "중간",
-      "golden_ratio": 0.56,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "PNT액상마그네슘",
@@ -3327,34 +3646,34 @@
       "mobile_search": 290,
       "competition": "낮음",
       "golden_ratio": 0.55,
-      "trend": "신규"
-    },
-    {
-      "keyword": "LG휴대용모니터",
-      "category": "IT",
-      "seed": "휴대용 모니터 추천",
-      "monthly_search": 540,
-      "pc_search": 210,
-      "mobile_search": 330,
-      "competition": "중간",
-      "golden_ratio": 0.54,
-      "trend": "신규"
-    },
-    {
-      "keyword": "굽은등스트레칭",
-      "category": "건강",
-      "seed": "허리 디스크 스트레칭",
-      "monthly_search": 540,
-      "pc_search": 80,
-      "mobile_search": 460,
-      "competition": "중간",
-      "golden_ratio": 0.54,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "노트북확장모니터",
       "category": "IT",
       "seed": "노트북 듀얼모니터 거치대",
+      "monthly_search": 540,
+      "pc_search": 190,
+      "mobile_search": 350,
+      "competition": "중간",
+      "golden_ratio": 0.54,
+      "trend": "유지"
+    },
+    {
+      "keyword": "집들이수건",
+      "category": "생활",
+      "seed": "집들이 선물 추천",
+      "monthly_search": 540,
+      "pc_search": 120,
+      "mobile_search": 420,
+      "competition": "중간",
+      "golden_ratio": 0.54,
+      "trend": "신규"
+    },
+    {
+      "keyword": "태블릿거치대스탠드",
+      "category": "IT",
+      "seed": "태블릿 거치대 추천",
       "monthly_search": 540,
       "pc_search": 190,
       "mobile_search": 350,
@@ -3371,6 +3690,17 @@
       "mobile_search": 360,
       "competition": "중간",
       "golden_ratio": 0.54,
+      "trend": "유지"
+    },
+    {
+      "keyword": "인턴퇴사선물",
+      "category": "생활",
+      "seed": "퇴사 선물 추천",
+      "monthly_search": 530,
+      "pc_search": 110,
+      "mobile_search": 420,
+      "competition": "중간",
+      "golden_ratio": 0.53,
       "trend": "신규"
     },
     {
@@ -3382,7 +3712,7 @@
       "mobile_search": 470,
       "competition": "중간",
       "golden_ratio": 0.52,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "자동차세연납할인",
@@ -3393,7 +3723,7 @@
       "mobile_search": 230,
       "competition": "낮음",
       "golden_ratio": 0.52,
-      "trend": "하락"
+      "trend": "유지"
     },
     {
       "keyword": "도시가스절약캐시백",
@@ -3404,7 +3734,7 @@
       "mobile_search": 250,
       "competition": "낮음",
       "golden_ratio": 0.51,
-      "trend": "하락"
+      "trend": "유지"
     },
     {
       "keyword": "러닝스마트워치",
@@ -3415,28 +3745,39 @@
       "mobile_search": 370,
       "competition": "중간",
       "golden_ratio": 0.51,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "50대아빠선물",
+      "keyword": "회사퇴사선물",
       "category": "생활",
       "seed": "퇴사 선물 추천",
-      "monthly_search": 490,
-      "pc_search": 40,
-      "mobile_search": 450,
+      "monthly_search": 510,
+      "pc_search": 80,
+      "mobile_search": 430,
       "competition": "중간",
-      "golden_ratio": 0.49,
+      "golden_ratio": 0.51,
       "trend": "신규"
     },
     {
-      "keyword": "다크서클영양제",
+      "keyword": "A형간염항체검사",
       "category": "건강",
-      "seed": "루테인 눈 영양제",
-      "monthly_search": 330,
-      "pc_search": 40,
-      "mobile_search": 290,
-      "competition": "낮음",
-      "golden_ratio": 0.49,
+      "seed": "A형간염 항체검사",
+      "monthly_search": 480,
+      "pc_search": 130,
+      "mobile_search": 350,
+      "competition": "중간",
+      "golden_ratio": 0.48,
+      "trend": "신규"
+    },
+    {
+      "keyword": "대장내시경수면비용",
+      "category": "건강",
+      "seed": "대장내시경 수면 비용",
+      "monthly_search": 470,
+      "pc_search": 70,
+      "mobile_search": 400,
+      "competition": "중간",
+      "golden_ratio": 0.47,
       "trend": "신규"
     },
     {
@@ -3448,6 +3789,17 @@
       "mobile_search": 340,
       "competition": "중간",
       "golden_ratio": 0.47,
+      "trend": "유지"
+    },
+    {
+      "keyword": "허리디스크명의",
+      "category": "건강",
+      "seed": "허리 디스크 스트레칭",
+      "monthly_search": 310,
+      "pc_search": 50,
+      "mobile_search": 260,
+      "competition": "낮음",
+      "golden_ratio": 0.46,
       "trend": "신규"
     },
     {
@@ -3458,6 +3810,17 @@
       "pc_search": 210,
       "mobile_search": 90,
       "competition": "낮음",
+      "golden_ratio": 0.45,
+      "trend": "유지"
+    },
+    {
+      "keyword": "스팀세척기",
+      "category": "육아",
+      "seed": "젖병 세척 방법",
+      "monthly_search": 450,
+      "pc_search": 150,
+      "mobile_search": 300,
+      "competition": "중간",
       "golden_ratio": 0.45,
       "trend": "신규"
     },
@@ -3470,6 +3833,17 @@
       "mobile_search": 120,
       "competition": "낮음",
       "golden_ratio": 0.45,
+      "trend": "유지"
+    },
+    {
+      "keyword": "집들이선물수건",
+      "category": "생활",
+      "seed": "집들이 선물 추천",
+      "monthly_search": 450,
+      "pc_search": 110,
+      "mobile_search": 340,
+      "competition": "중간",
+      "golden_ratio": 0.45,
       "trend": "신규"
     },
     {
@@ -3481,15 +3855,26 @@
       "mobile_search": 330,
       "competition": "중간",
       "golden_ratio": 0.45,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "10만원대집들이선물",
       "category": "생활",
-      "seed": "신혼부부 선물",
+      "seed": "집들이 선물 추천",
       "monthly_search": 440,
       "pc_search": 110,
       "mobile_search": 330,
+      "competition": "중간",
+      "golden_ratio": 0.44,
+      "trend": "유지"
+    },
+    {
+      "keyword": "아기헤어캡",
+      "category": "육아",
+      "seed": "아기 목욕용품 추천",
+      "monthly_search": 440,
+      "pc_search": 20,
+      "mobile_search": 420,
       "competition": "중간",
       "golden_ratio": 0.44,
       "trend": "신규"
@@ -3503,18 +3888,7 @@
       "mobile_search": 90,
       "competition": "중간",
       "golden_ratio": 0.43,
-      "trend": "신규"
-    },
-    {
-      "keyword": "친구퇴사선물",
-      "category": "생활",
-      "seed": "신혼부부 선물",
-      "monthly_search": 430,
-      "pc_search": 80,
-      "mobile_search": 350,
-      "competition": "중간",
-      "golden_ratio": 0.43,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "삼성증권ISA이벤트",
@@ -3525,7 +3899,7 @@
       "mobile_search": 210,
       "competition": "낮음",
       "golden_ratio": 0.42,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "수도계량기커버",
@@ -3536,28 +3910,17 @@
       "mobile_search": 300,
       "competition": "중간",
       "golden_ratio": 0.42,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "피부과스케일링",
-      "category": "건강",
-      "seed": "스케일링 건강보험 적용",
-      "monthly_search": 420,
-      "pc_search": 60,
-      "mobile_search": 360,
-      "competition": "중간",
-      "golden_ratio": 0.42,
-      "trend": "신규"
-    },
-    {
-      "keyword": "애기엄마선물",
-      "category": "육아",
-      "seed": "출산 선물 추천",
-      "monthly_search": 400,
-      "pc_search": 90,
-      "mobile_search": 310,
-      "competition": "중간",
-      "golden_ratio": 0.4,
+      "keyword": "미리보기",
+      "category": "경제",
+      "seed": "연말정산 미리보기",
+      "monthly_search": 260,
+      "pc_search": 110,
+      "mobile_search": 150,
+      "competition": "낮음",
+      "golden_ratio": 0.39,
       "trend": "신규"
     },
     {
@@ -3569,62 +3932,7 @@
       "mobile_search": 250,
       "competition": "중간",
       "golden_ratio": 0.39,
-      "trend": "신규"
-    },
-    {
-      "keyword": "연말정산환급금계산",
-      "category": "경제",
-      "seed": "연말정산 미리보기",
-      "monthly_search": 250,
-      "pc_search": 90,
-      "mobile_search": 160,
-      "competition": "낮음",
-      "golden_ratio": 0.38,
-      "trend": "신규"
-    },
-    {
-      "keyword": "은평한옥마을돌잔치",
-      "category": "육아",
-      "seed": "돌잔치 답례품 추천",
-      "monthly_search": 250,
-      "pc_search": 20,
-      "mobile_search": 230,
-      "competition": "낮음",
-      "golden_ratio": 0.38,
-      "trend": "신규"
-    },
-    {
-      "keyword": "스케일링치과",
-      "category": "건강",
-      "seed": "스케일링 건강보험 적용",
-      "monthly_search": 370,
-      "pc_search": 40,
-      "mobile_search": 330,
-      "competition": "중간",
-      "golden_ratio": 0.37,
-      "trend": "신규"
-    },
-    {
-      "keyword": "여의도메리어트돌잔치",
-      "category": "육아",
-      "seed": "돌잔치 답례품 추천",
-      "monthly_search": 240,
-      "pc_search": 30,
-      "mobile_search": 210,
-      "competition": "낮음",
-      "golden_ratio": 0.36,
-      "trend": "신규"
-    },
-    {
-      "keyword": "EBS유아",
-      "category": "육아",
-      "seed": "유아 치약 불소",
-      "monthly_search": 350,
-      "pc_search": 140,
-      "mobile_search": 210,
-      "competition": "중간",
-      "golden_ratio": 0.35,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "엘리트자동차검사소",
@@ -3635,6 +3943,17 @@
       "mobile_search": 200,
       "competition": "낮음",
       "golden_ratio": 0.35,
+      "trend": "유지"
+    },
+    {
+      "keyword": "동파예방",
+      "category": "생활",
+      "seed": "수도계량기 동파 예방법",
+      "monthly_search": 330,
+      "pc_search": 120,
+      "mobile_search": 210,
+      "competition": "중간",
+      "golden_ratio": 0.33,
       "trend": "신규"
     },
     {
@@ -3646,15 +3965,15 @@
       "mobile_search": 200,
       "competition": "중간",
       "golden_ratio": 0.33,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "국세청홈택스연말정산",
+      "keyword": "임의가입",
       "category": "경제",
-      "seed": "연말정산 미리보기",
+      "seed": "국민연금 임의가입",
       "monthly_search": 210,
-      "pc_search": 160,
-      "mobile_search": 50,
+      "pc_search": 40,
+      "mobile_search": 170,
       "competition": "낮음",
       "golden_ratio": 0.32,
       "trend": "신규"
@@ -3668,7 +3987,7 @@
       "mobile_search": 260,
       "competition": "중간",
       "golden_ratio": 0.31,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "신한카드포인트플랜",
@@ -3679,6 +3998,17 @@
       "mobile_search": 220,
       "competition": "중간",
       "golden_ratio": 0.31,
+      "trend": "유지"
+    },
+    {
+      "keyword": "1회용온열안대",
+      "category": "건강",
+      "seed": "수면안대 온열안대 추천",
+      "monthly_search": 300,
+      "pc_search": 30,
+      "mobile_search": 270,
+      "competition": "중간",
+      "golden_ratio": 0.3,
       "trend": "신규"
     },
     {
@@ -3690,7 +4020,7 @@
       "mobile_search": 110,
       "competition": "낮음",
       "golden_ratio": 0.3,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "국민카드포인트리사용",
@@ -3701,7 +4031,7 @@
       "mobile_search": 240,
       "competition": "중간",
       "golden_ratio": 0.3,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "서울주택청약",
@@ -3712,7 +4042,7 @@
       "mobile_search": 190,
       "competition": "중간",
       "golden_ratio": 0.3,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "수면MRI",
@@ -3723,28 +4053,50 @@
       "mobile_search": 270,
       "competition": "중간",
       "golden_ratio": 0.3,
+      "trend": "유지"
+    },
+    {
+      "keyword": "고효율가전",
+      "category": "생활",
+      "seed": "고효율 가전 환급",
+      "monthly_search": 280,
+      "pc_search": 60,
+      "mobile_search": 220,
+      "competition": "중간",
+      "golden_ratio": 0.28,
       "trend": "신규"
     },
     {
-      "keyword": "청주산하춘돌잔치",
+      "keyword": "아기목욕용품",
       "category": "육아",
-      "seed": "돌잔치 답례품 추천",
-      "monthly_search": 200,
-      "pc_search": 10,
-      "mobile_search": 190,
-      "competition": "낮음",
-      "golden_ratio": 0.3,
+      "seed": "아기 목욕용품 추천",
+      "monthly_search": 280,
+      "pc_search": 50,
+      "mobile_search": 230,
+      "competition": "중간",
+      "golden_ratio": 0.28,
       "trend": "신규"
     },
     {
-      "keyword": "AI여자친구",
-      "category": "IT",
-      "seed": "AI 전화 스팸 차단 설정",
-      "monthly_search": 190,
-      "pc_search": 40,
-      "mobile_search": 150,
+      "keyword": "출산영양제",
+      "category": "육아",
+      "seed": "출산 선물 추천",
+      "monthly_search": 280,
+      "pc_search": 70,
+      "mobile_search": 210,
+      "competition": "중간",
+      "golden_ratio": 0.28,
+      "trend": "신규"
+    },
+    {
+      "keyword": "국가건강검진대상자확인",
+      "category": "건강",
+      "seed": "국가건강검진 대상자 조회",
+      "monthly_search": 180,
+      "pc_search": 90,
+      "mobile_search": 90,
       "competition": "낮음",
-      "golden_ratio": 0.29,
+      "golden_ratio": 0.27,
       "trend": "신규"
     },
     {
@@ -3756,18 +4108,7 @@
       "mobile_search": 150,
       "competition": "낮음",
       "golden_ratio": 0.27,
-      "trend": "신규"
-    },
-    {
-      "keyword": "소상공인신용보증재단",
-      "category": "경제",
-      "seed": "소상공인 대환대출",
-      "monthly_search": 180,
-      "pc_search": 40,
-      "mobile_search": 140,
-      "competition": "낮음",
-      "golden_ratio": 0.27,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "여권발급하는곳",
@@ -3778,6 +4119,39 @@
       "mobile_search": 230,
       "competition": "중간",
       "golden_ratio": 0.27,
+      "trend": "유지"
+    },
+    {
+      "keyword": "출산후마사지",
+      "category": "육아",
+      "seed": "출산 선물 추천",
+      "monthly_search": 270,
+      "pc_search": 20,
+      "mobile_search": 250,
+      "competition": "중간",
+      "golden_ratio": 0.27,
+      "trend": "신규"
+    },
+    {
+      "keyword": "허리수술명의",
+      "category": "건강",
+      "seed": "허리 디스크 스트레칭",
+      "monthly_search": 180,
+      "pc_search": 30,
+      "mobile_search": 150,
+      "competition": "낮음",
+      "golden_ratio": 0.27,
+      "trend": "신규"
+    },
+    {
+      "keyword": "아기낮잠",
+      "category": "육아",
+      "seed": "아기 낮잠 깨시 계산",
+      "monthly_search": 260,
+      "pc_search": 20,
+      "mobile_search": 240,
+      "competition": "중간",
+      "golden_ratio": 0.26,
       "trend": "신규"
     },
     {
@@ -3789,7 +4163,7 @@
       "mobile_search": 140,
       "competition": "낮음",
       "golden_ratio": 0.26,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "전세보증금내용증명",
@@ -3800,17 +4174,17 @@
       "mobile_search": 240,
       "competition": "중간",
       "golden_ratio": 0.26,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
-      "keyword": "아기선물추천",
-      "category": "육아",
-      "seed": "출산 선물 추천",
-      "monthly_search": 250,
-      "pc_search": 60,
-      "mobile_search": 190,
-      "competition": "중간",
-      "golden_ratio": 0.25,
+      "keyword": "가족관계증명서인터넷",
+      "category": "생활",
+      "seed": "가족관계증명서 인터넷 발급",
+      "monthly_search": 160,
+      "pc_search": 80,
+      "mobile_search": 80,
+      "competition": "낮음",
+      "golden_ratio": 0.24,
       "trend": "신규"
     },
     {
@@ -3822,7 +4196,7 @@
       "mobile_search": 190,
       "competition": "중간",
       "golden_ratio": 0.24,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "에이블트라이크유모차",
@@ -3833,7 +4207,7 @@
       "mobile_search": 150,
       "competition": "낮음",
       "golden_ratio": 0.24,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "송중기유모차",
@@ -3844,7 +4218,7 @@
       "mobile_search": 130,
       "competition": "낮음",
       "golden_ratio": 0.22,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "수도계량기보호통",
@@ -3855,18 +4229,7 @@
       "mobile_search": 120,
       "competition": "중간",
       "golden_ratio": 0.22,
-      "trend": "신규"
-    },
-    {
-      "keyword": "KAISTMBA",
-      "category": "IT",
-      "seed": "AI 전화 스팸 차단 설정",
-      "monthly_search": 140,
-      "pc_search": 60,
-      "mobile_search": 80,
-      "competition": "낮음",
-      "golden_ratio": 0.21,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "수면내시경가격",
@@ -3877,7 +4240,7 @@
       "mobile_search": 170,
       "competition": "중간",
       "golden_ratio": 0.21,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "아기그림자극장",
@@ -3888,6 +4251,28 @@
       "mobile_search": 190,
       "competition": "중간",
       "golden_ratio": 0.21,
+      "trend": "유지"
+    },
+    {
+      "keyword": "투자세액공제",
+      "category": "경제",
+      "seed": "월세 세액공제 배우자",
+      "monthly_search": 210,
+      "pc_search": 150,
+      "mobile_search": 60,
+      "competition": "중간",
+      "golden_ratio": 0.21,
+      "trend": "신규"
+    },
+    {
+      "keyword": "24개월언어발달",
+      "category": "육아",
+      "seed": "24개월 언어발달",
+      "monthly_search": 200,
+      "pc_search": 30,
+      "mobile_search": 170,
+      "competition": "중간",
+      "golden_ratio": 0.2,
       "trend": "신규"
     },
     {
@@ -3899,7 +4284,7 @@
       "mobile_search": 110,
       "competition": "낮음",
       "golden_ratio": 0.2,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "전세보증금소송",
@@ -3910,6 +4295,39 @@
       "mobile_search": 190,
       "competition": "중간",
       "golden_ratio": 0.2,
+      "trend": "유지"
+    },
+    {
+      "keyword": "투썸커피쿠폰",
+      "category": "생활",
+      "seed": "감사선물 커피쿠폰",
+      "monthly_search": 190,
+      "pc_search": 40,
+      "mobile_search": 150,
+      "competition": "중간",
+      "golden_ratio": 0.19,
+      "trend": "신규"
+    },
+    {
+      "keyword": "메가커피쿠폰구매",
+      "category": "생활",
+      "seed": "감사선물 커피쿠폰",
+      "monthly_search": 180,
+      "pc_search": 50,
+      "mobile_search": 130,
+      "competition": "중간",
+      "golden_ratio": 0.18,
+      "trend": "신규"
+    },
+    {
+      "keyword": "연구인력개발비세액공제",
+      "category": "경제",
+      "seed": "월세 세액공제 배우자",
+      "monthly_search": 180,
+      "pc_search": 160,
+      "mobile_search": 20,
+      "competition": "중간",
+      "golden_ratio": 0.18,
       "trend": "신규"
     },
     {
@@ -3921,7 +4339,7 @@
       "mobile_search": 100,
       "competition": "낮음",
       "golden_ratio": 0.18,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "달바디퓨저",
@@ -3932,7 +4350,7 @@
       "mobile_search": 100,
       "competition": "낮음",
       "golden_ratio": 0.17,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "소아중이염",
@@ -3943,29 +4361,7 @@
       "mobile_search": 130,
       "competition": "중간",
       "golden_ratio": 0.17,
-      "trend": "신규"
-    },
-    {
-      "keyword": "유아활동지",
-      "category": "육아",
-      "seed": "유아 치약 불소",
-      "monthly_search": 170,
-      "pc_search": 120,
-      "mobile_search": 50,
-      "competition": "중간",
-      "golden_ratio": 0.17,
-      "trend": "신규"
-    },
-    {
-      "keyword": "수도계량기보온덮개",
-      "category": "생활",
-      "seed": "수도계량기 동파 예방법",
-      "monthly_search": 150,
-      "pc_search": 60,
-      "mobile_search": 90,
-      "competition": "중간",
-      "golden_ratio": 0.15,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "수도계량기잠그기",
@@ -3976,7 +4372,7 @@
       "mobile_search": 140,
       "competition": "중간",
       "golden_ratio": 0.15,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "여름수면안대",
@@ -3987,7 +4383,7 @@
       "mobile_search": 90,
       "competition": "낮음",
       "golden_ratio": 0.15,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "의정부이유식",
@@ -3998,7 +4394,7 @@
       "mobile_search": 90,
       "competition": "낮음",
       "golden_ratio": 0.15,
-      "trend": "신규"
+      "trend": "유지"
     },
     {
       "keyword": "정부24가족관계증명서출력",
@@ -4009,17 +4405,39 @@
       "mobile_search": 70,
       "competition": "낮음",
       "golden_ratio": 0.15,
+      "trend": "유지"
+    },
+    {
+      "keyword": "택배파손",
+      "category": "생활",
+      "seed": "택배 파손 보상",
+      "monthly_search": 150,
+      "pc_search": 30,
+      "mobile_search": 120,
+      "competition": "중간",
+      "golden_ratio": 0.15,
       "trend": "신규"
     },
     {
-      "keyword": "강남대장내시경",
+      "keyword": "건강보험금액",
       "category": "건강",
-      "seed": "대장내시경 수면 비용",
-      "monthly_search": 130,
-      "pc_search": 80,
-      "mobile_search": 50,
+      "seed": "임플란트 건강보험",
+      "monthly_search": 140,
+      "pc_search": 40,
+      "mobile_search": 100,
       "competition": "중간",
-      "golden_ratio": 0.13,
+      "golden_ratio": 0.14,
+      "trend": "신규"
+    },
+    {
+      "keyword": "스타벅스커피쿠폰선물하기",
+      "category": "생활",
+      "seed": "감사선물 커피쿠폰",
+      "monthly_search": 140,
+      "pc_search": 10,
+      "mobile_search": 130,
+      "competition": "중간",
+      "golden_ratio": 0.14,
       "trend": "신규"
     },
     {
@@ -4031,6 +4449,17 @@
       "mobile_search": 100,
       "competition": "중간",
       "golden_ratio": 0.12,
+      "trend": "유지"
+    },
+    {
+      "keyword": "국가건강검진신청방법",
+      "category": "건강",
+      "seed": "국가건강검진 대상자 조회",
+      "monthly_search": 110,
+      "pc_search": 60,
+      "mobile_search": 50,
+      "competition": "중간",
+      "golden_ratio": 0.11,
       "trend": "신규"
     },
     {
@@ -4042,7 +4471,7 @@
       "mobile_search": 40,
       "competition": "중간",
       "golden_ratio": 0.11,
-      "trend": "신규"
+      "trend": "유지"
     }
   ]
 }
