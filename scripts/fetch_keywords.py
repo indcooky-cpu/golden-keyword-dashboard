@@ -329,10 +329,8 @@ def is_near_dup(candidate: str, picked: str) -> bool:
     return False
 
 
-def pick_longtails(items: list[dict], phrase: str, used: set[str], limit: int) -> list[dict]:
-    """시드 핵심 단어와 겹치면서 아직 안 쓴 키워드 중, 롱테일·저경쟁 우선으로 limit개."""
-    if limit <= 0:
-        return []
+def build_candidates(items: list[dict], phrase: str) -> list[dict]:
+    """시드 하나에서 뽑을 만한 후보를 우선순위 순으로 정리합니다."""
     tokens = [t for t in phrase.split() if len(t) >= 2]
     specific = [t for t in tokens if t not in GENERIC_TOKENS]
     seed_compact = phrase.replace(" ", "")
@@ -343,23 +341,38 @@ def pick_longtails(items: list[dict], phrase: str, used: set[str], limit: int) -
             continue
         is_self = item["compact"] == seed_compact
         matched = sum(1 for t in tokens if t in item["name"])
-        if not is_self and matched == 0:
-            continue
-        # '추천' 같은 범용 단어만 겹치는 후보는 시드와 무관한 잡음
-        if not is_self and specific and not any(t in item["name"] for t in specific):
-            continue
+        if not is_self:
+            # 시드 핵심 단어가 들어 있어야 하고,
+            # 한 단어만 걸친 후보는 그 단어가 4자 이상일 때만 남깁니다.
+            # ('퇴사', '계산', '부모님'처럼 너무 넓은 머리 단어를 걸러내는 규칙)
+            if matched == 0:
+                continue
+            if not any(t in item["name"] for t in specific):
+                continue
+            if matched < 2 and not any(t in item["name"] and len(t) >= 4 for t in specific):
+                continue
         tier = priority_tier(item)
         if tier is None:
             continue
         candidates.append({**item, "matched": matched, "tier": tier})
 
     candidates.sort(key=lambda c: (c["tier"], -c["matched"], -c["volume"]))
+    return candidates
 
+
+def select_candidates(
+    candidates: list[dict], seed_known: set[str], used: set[str], limit: int
+) -> list[dict]:
+    """중복·꼬리말만 다른 중복을 피해 상위 후보부터 limit개 고릅니다."""
+    if limit <= 0:
+        return []
     picked: list[dict] = []
     for cand in candidates:
         if len(picked) >= limit:
             break
         if cand["compact"] in used:
+            continue
+        if any(is_near_dup(cand["compact"], known) for known in seed_known):
             continue
         if any(is_near_dup(cand["compact"], p["compact"]) for p in picked):
             continue
@@ -425,7 +438,8 @@ def main() -> None:
         prev_volumes = build_prev_volume_map(old_data.get("keywords", []))
 
     used: set[str] = set()
-    items_by_seed: dict[int, list[dict]] = {}
+    pools: dict[int, list[dict]] = {}
+    seed_rows: dict[int, list[dict]] = {}
     rows: list[dict] = []
 
     for index, (phrase, category) in enumerate(SEED_KEYWORDS):
@@ -447,10 +461,11 @@ def main() -> None:
             time.sleep(0.2)
 
         items = normalize(api_rows)
-        items_by_seed[index] = items
+        candidates = build_candidates(items, phrase)
+        pools[index] = candidates
+        emitted: list[dict] = []
 
         exact = find_exact(items, phrase)
-        anchor_added = False
         if (
             exact
             and exact["comp"] == "낮음"
@@ -458,31 +473,43 @@ def main() -> None:
             and exact["compact"] not in used
         ):
             used.add(exact["compact"])
-            rows.append(make_row(exact, phrase, category, prev_volumes))
-            anchor_added = True
+            row = make_row(exact, phrase, category, prev_volumes)
+            rows.append(row)
+            emitted.append(row)
 
-        picked = pick_longtails(
-            items,
-            phrase,
+        picked = select_candidates(
+            candidates,
+            {row["keyword"].replace(" ", "") for row in emitted},
             used,
-            MAX_PER_SEED - (1 if anchor_added else 0),
+            MAX_PER_SEED - len(emitted),
         )
         for item in picked:
             used.add(item["compact"])
-            rows.append(make_row(item, phrase, category, prev_volumes))
+            row = make_row(item, phrase, category, prev_volumes)
+            rows.append(row)
+            emitted.append(row)
+
+        seed_rows[index] = emitted
 
     # 1차 추출이 300건에 못 미치면 남은 후보에서 조금씩 더 채운다
     if len(rows) < TOTAL_MIN:
-        for extra_round in (1, 2):
+        for _extra_round in range(2):
             for index, (phrase, category) in enumerate(SEED_KEYWORDS):
                 if len(rows) >= TOTAL_MIN:
                     break
-                picked = pick_longtails(
-                    items_by_seed.get(index, []), phrase, used, extra_round
+                emitted = seed_rows.get(index, [])
+                picked = select_candidates(
+                    pools.get(index, []),
+                    {row["keyword"].replace(" ", "") for row in emitted},
+                    used,
+                    1,
                 )
                 for item in picked:
                     used.add(item["compact"])
-                    rows.append(make_row(item, phrase, category, prev_volumes))
+                    row = make_row(item, phrase, category, prev_volumes)
+                    rows.append(row)
+                    emitted.append(row)
+                seed_rows[index] = emitted
 
     # 상한을 넘으면 롱테일·저경쟁 우선 순위가 낮은 행부터 덜어낸다
     if len(rows) > TOTAL_CAP:
