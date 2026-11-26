@@ -12,6 +12,7 @@
       <div>
         <p class="eyebrow">NAVER KEYWORD GOLDEN TRACKER</p>
         <h1>황금 키워드 대시보드</h1>
+        <p class="header-sub">경쟁 낮음 · 롱테일(월 500~10,000) 중심</p>
       </div>
       <div class="meta-badge">
         <span class="dot"></span>
@@ -21,7 +22,7 @@
 
     <section class="summary-grid" aria-label="요약 지표">
       <article class="summary-card">
-        <span class="card-label">전체 추적 주제</span>
+        <span class="card-label">전체 키워드</span>
         <strong class="card-value" id="totalCount">0</strong>
         <span class="card-sub" id="filteredInfo">필터 적용 전</span>
       </article>
@@ -31,14 +32,19 @@
         <span class="card-sub" id="bestKeyword">-</span>
       </article>
       <article class="summary-card">
+        <span class="card-label">경쟁 낮음</span>
+        <strong class="card-value" id="lowCompCount">0</strong>
+        <span class="card-sub" id="lowCompRatio">낮음 비율 -</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-label">롱테일 500~10,000</span>
+        <strong class="card-value" id="longTailCount">0</strong>
+        <span class="card-sub" id="longTailSub">경쟁 낮음 -</span>
+      </article>
+      <article class="summary-card">
         <span class="card-label">평균 월간 검색량</span>
         <strong class="card-value" id="avgSearch">0</strong>
         <span class="card-sub">PC + 모바일 합산</span>
-      </article>
-      <article class="summary-card">
-        <span class="card-label">경쟁 낮음</span>
-        <strong class="card-value" id="lowCompCount">0</strong>
-        <span class="card-sub">검색광고 경쟁도 '낮음'</span>
       </article>
     </section>
 
@@ -50,17 +56,18 @@
         <button class="tab" data-category="건강">건강</button>
         <button class="tab" data-category="IT">IT</button>
         <button class="tab" data-category="육아">육아</button>
+        <button class="tab filter-tab" id="lowOnlyBtn" aria-pressed="false">경쟁 낮음만</button>
       </div>
 
       <div class="search-sort">
         <label class="search-box">
           <span class="sr-only">키워드 검색</span>
-          <input type="search" id="searchInput" placeholder="키워드 검색 (예: 연말정산, 육아)..." />
+          <input type="search" id="searchInput" placeholder="키워드 검색 (예: 연말정산, 선물)..." />
         </label>
         <select id="sortSelect" aria-label="정렬 기준">
           <option value="golden_ratio:desc">황금지수 높은 순</option>
           <option value="monthly_search:desc">월간 검색량 높은 순</option>
-          <option value="topic_search:desc">주제 검색량 높은 순</option>
+          <option value="monthly_search:asc">월간 검색량 낮은 순</option>
           <option value="keyword:asc">가나다 순</option>
         </select>
       </div>
@@ -72,26 +79,30 @@
           <tr>
             <th>순위</th>
             <th>카테고리</th>
-            <th>주제</th>
-            <th class="num">주제 검색량</th>
-            <th>추천 키워드</th>
-            <th class="num">추천 검색량</th>
-            <th class="num">황금지수</th>
+            <th>키워드</th>
+            <th class="num">월간 검색량</th>
             <th>경쟁도</th>
+            <th class="num">황금지수</th>
             <th>추세</th>
+            <th>시드(주제)</th>
           </tr>
         </thead>
         <tbody id="keywordTableBody">
           <tr>
-            <td colspan="9" class="empty">데이터를 불러오는 중입니다...</td>
+            <td colspan="8" class="empty">데이터를 불러오는 중입니다...</td>
           </tr>
         </tbody>
       </table>
     </section>
 
+    <div class="pager" id="pager" hidden>
+      <span class="pager-info" id="pagerInfo"></span>
+      <button class="btn-more" id="moreBtn" type="button">더 보기</button>
+    </div>
+
     <footer class="footer">
       <p>황금지수 = 월간 검색량(천 단위) × 경쟁도 계수 (낮음 1.5 / 보통 1.0 / 높음 0.6)</p>
-      <p>검색량·경쟁도는 네이버 검색광고 키워드 도구 기준이며, 추천 키워드는 주제와 단어가 겹치는 관련 키워드 중 검색량이 있는 것입니다.</p>
+      <p>시드 130개에서 뽑은 키워드로, 경쟁 '낮음' + 월 검색량 500~10,000대 롱테일을 먼저 채웁니다. 검색량·경쟁도는 네이버 검색광고 키워드 도구 기준입니다.</p>
     </footer>
   </div>
 
