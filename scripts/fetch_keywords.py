@@ -54,7 +54,7 @@ TOTAL_MIN = 300
 GENERIC_TOKENS = {
     "추천", "가성비", "방법", "비용", "시기", "종류", "조회", "신청", "준비물",
     "비교", "순위", "정리", "총정리", "후기", "정보", "확인", "가격", "할인",
-    "혜택", "대상", "기준", "정도", "효과", "증상",
+    "혜택", "대상", "기준", "정도", "효과", "증상", "통합", "선물", "필수템",
 }
 
 # 추적할 주제(시드) 목록 — 키워드를 바꾸고 싶으면 여기만 수정하면 됩니다.
@@ -277,11 +277,30 @@ def find_exact(items: list[dict], phrase: str) -> dict | None:
 
 
 def head_token(phrase: str) -> str:
-    """키워드 도구가 잘 찾아주는 핵심 단어(가장 긴 토큰)를 시드 문구에서 뽑습니다."""
+    """키워드 도구가 잘 찾아주는 핵심 단어를 시드 문구에서 뽑습니다.
+
+    '아기 식판 추천'에서 '아기'보다 '식판'이, '아기 카시트 추천'에서 '카시트'가
+    실제 검색어에 가깝기 때문에 범용 단어를 뺀 마지막 토큰을 우선 쓰고,
+    없으면 가장 긴 토큰을 씁니다.
+    """
     tokens = [t for t in phrase.split() if len(t) >= 2]
     if not tokens:
         return phrase.replace(" ", "")
+    specific = [t for t in tokens if t not in GENERIC_TOKENS]
+    if specific:
+        # 길이가 같으면 뒤에 오는 말이 실제 검색어의 중심어인 경우가 많다
+        return max(enumerate(tokens), key=lambda it: (len(it[1]) if it[1] in specific else -1, it[0]))[1]
     return max(tokens, key=len)
+
+
+def seed_hints(phrase: str) -> list[str]:
+    """한 시드에서 조회할 힌트(최대 3개): 전체 문구, 앞 두 단어, 핵심 단어."""
+    tokens = phrase.split()
+    hints = [phrase]
+    if len(tokens) >= 2:
+        hints.append("".join(tokens[:2]))
+    hints.append(head_token(phrase))
+    return list(dict.fromkeys(h.replace(" ", "") for h in hints if h))[:3]
 
 
 def priority_tier(item: dict) -> int | None:
@@ -320,13 +339,14 @@ def pick_longtails(items: list[dict], phrase: str, used: set[str], limit: int) -
 
     candidates = []
     for item in items:
-        if item["compact"] == seed_compact or item["volume"] < FALLBACK_MIN_VOLUME:
+        if item["volume"] < FALLBACK_MIN_VOLUME:
             continue
+        is_self = item["compact"] == seed_compact
         matched = sum(1 for t in tokens if t in item["name"])
-        if matched == 0:
+        if not is_self and matched == 0:
             continue
         # '추천' 같은 범용 단어만 겹치는 후보는 시드와 무관한 잡음
-        if specific and not any(t in item["name"] for t in specific):
+        if not is_self and specific and not any(t in item["name"] for t in specific):
             continue
         tier = priority_tier(item)
         if tier is None:
@@ -410,7 +430,7 @@ def main() -> None:
 
     for index, (phrase, category) in enumerate(SEED_KEYWORDS):
         api_rows: list[dict] = []
-        hints = list(dict.fromkeys([phrase, head_token(phrase)]))
+        hints = seed_hints(phrase)
         for hint in hints:
             for attempt in range(2):
                 try:
