@@ -342,14 +342,16 @@ def build_candidates(items: list[dict], phrase: str) -> list[dict]:
         is_self = item["compact"] == seed_compact
         matched = sum(1 for t in tokens if t in item["name"])
         if not is_self:
-            # 시드 핵심 단어가 들어 있어야 하고,
-            # 한 단어만 걸친 후보는 그 단어가 4자 이상일 때만 남깁니다.
-            # ('퇴사', '계산', '부모님'처럼 너무 넓은 머리 단어를 걸러내는 규칙)
+            # 시드 핵심 단어가 들어 있어야 합니다.
             if matched == 0:
                 continue
             if not any(t in item["name"] for t in specific):
                 continue
-            if matched < 2 and not any(t in item["name"] and len(t) >= 4 for t in specific):
+            # 시드 단어 하나를 그대로 쓴 후보('퇴사', '부모님', '영유아')는
+            # 그 단어가 4자 이상인 고유명사('청년미래적금')일 때만 남깁니다.
+            if matched < 2 and any(
+                item["compact"] == t and len(t) < 4 for t in tokens
+            ):
                 continue
         tier = priority_tier(item)
         if tier is None:
